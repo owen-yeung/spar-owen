@@ -14,6 +14,7 @@ class WrappedVAE:
         self.tokenizer = tokenizer
         self.device = device # Only model goes to device
         self.dtype = dtype
+        
     def reconstruct(self, input_text, generation_length=48):
         with torch.cuda.amp.autocast(dtype=self.dtype):
             tokenizer_output = self.tokenizer(input_text, return_tensors="pt")
@@ -24,6 +25,7 @@ class WrappedVAE:
  
             text = self.ids_to_text(output_ids, generation_length)
             return {'output_ids': output_ids, 'generation_length': generation_length, 'text': text}
+        
     def text_to_latent(self, text,):
         tokenizer_out = self.tokenizer(text, return_tensors="pt")
         tokens = tokenizer_out.input_ids
