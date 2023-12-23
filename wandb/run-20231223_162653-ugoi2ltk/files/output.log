@@ -1,0 +1,19 @@
+cuda
+torch.Size([1, 1, 3200])
+tensor(0.9805, device='cuda:0', dtype=torch.bfloat16, grad_fn=<SumBackward1>)
+tensor(44., device='cuda:0', dtype=torch.bfloat16,
+       grad_fn=<LinalgVectorNormBackward0>)
+Detected kernel version 3.10.0, which is below the recommended minimum of 5.5.0; this can cause the process to hang. It is recommended to upgrade the kernel to the minimum version or higher.
+Epoch 0
+Detected kernel version 3.10.0, which is below the recommended minimum of 5.5.0; this can cause the process to hang. It is recommended to upgrade the kernel to the minimum version or higher.
+Epoch 0
+/data/joshua_clymer/miniconda3/envs/redteam2/lib/python3.10/site-packages/IPython/core/completerlib.py:120: UserWarning: using rootmodules_cache requires you to install the `pickleshare` library.
+  rootmodules_cache = ip.db.get('rootmodules_cache', {})
+/data/joshua_clymer/miniconda3/envs/redteam2/lib/python3.10/site-packages/IPython/core/completerlib.py:120: UserWarning: using rootmodules_cache requires you to install the `pickleshare` library.
+  rootmodules_cache = ip.db.get('rootmodules_cache', {})
+Detected kernel version 3.10.0, which is below the recommended minimum of 5.5.0; this can cause the process to hang. It is recommended to upgrade the kernel to the minimum version or higher.
+Epoch 0
+Epoch 2
+Epoch 4
+Epoch 6
+Epoch 8

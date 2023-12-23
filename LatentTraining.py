@@ -111,11 +111,11 @@ class LatentTrainer(Trainer):
         optimizer = torch.optim.Adam(self.model.parameters(), lr=self.args.learning_rate)
         if optimizer_state != None:
             optimizer.load_state_dict(optimizer_state)
-        num_epochs = int(self.args.num_train_epochs)
+        num_steps = int(self.args.num_train_epochs)
         latent_module = self.model
         
 
-        for epoch in range(num_epochs):
+        for step in range(num_steps):
             # for step, batch in enumerate(self.get_train_dataloader()):
             optimizer.zero_grad()
             
@@ -140,13 +140,13 @@ class LatentTrainer(Trainer):
             loss_scalar = loss.item()
             self.loss_values.append(loss_scalar)
             #TODO save logs somewhere
-            if epoch % self.logging_steps == 0:
-                print(f"Epoch {epoch}")
+            if step % self.logging_steps == 0:
+                print(f"Step: {step}")
                 # self.optimus.print_greedy(latent)
-                text = self.wrapped_vae.ids_to_text(step_outputs['output_ids'], self.generation_length, self.tokenizer)
-                # print(text)
-                # print(f'Loss = 1 - cosine_similarity = {loss_scalar}')
-                wandb.log({"loss": loss_scalar, "text": text, "cos_similarity": 1 - loss_scalar})
+                text = self.wrapped_vae.ids_to_text(step_outputs['output_ids'], self.generation_length,)
+                print(text)
+                print(f'Loss = 1 - cosine_similarity = {loss_scalar}')
+                wandb.log({"loss": loss_scalar, "text": text, "cos_similarity": 1 - loss_scalar, 'step': step})
                 # print(text)
             # print(f"Epoch {epoch}, Loss: {loss.item()}")
         plt.plot(self.loss_values)
@@ -154,7 +154,7 @@ class LatentTrainer(Trainer):
         plt.ylabel('Loss = 1 - Cos Similarity')
         plt.show()
         training_state = {
-            'epoch': num_epochs,
+            'step': num_steps,
             'model_state_dict': latent_module.state_dict(), # save the state of the latent
             'optimizer_state_dict': optimizer.state_dict(),
             'loss': loss_scalar
