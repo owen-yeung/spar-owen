@@ -1,5 +1,7 @@
 import torch
 
+# My own helper functions
+
 def process_raw_hidden(hidden_states_tuple,
                        layer_index=-1,
                         last_token_only=True, 
