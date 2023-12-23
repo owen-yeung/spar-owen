@@ -175,3 +175,15 @@
 2023-12-23 16:51:09,670 DEBUG   HandlerThread:51972 [handler.py:handle_request():146] handle_request: stop_status
 2023-12-23 16:51:09,671 DEBUG   SenderThread:51972 [sender.py:send_request():409] send_request: stop_status
 2023-12-23 16:51:09,710 DEBUG   HandlerThread:51972 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-23 16:51:13,794 DEBUG   HandlerThread:51972 [handler.py:handle_request():146] handle_request: status_report
+2023-12-23 16:51:18,795 DEBUG   HandlerThread:51972 [handler.py:handle_request():146] handle_request: status_report
+2023-12-23 16:51:23,795 DEBUG   HandlerThread:51972 [handler.py:handle_request():146] handle_request: status_report
+2023-12-23 16:51:24,670 DEBUG   HandlerThread:51972 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-23 16:51:24,671 DEBUG   SenderThread:51972 [sender.py:send_request():409] send_request: stop_status
+2023-12-23 16:51:24,710 DEBUG   HandlerThread:51972 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-23 16:51:28,841 DEBUG   HandlerThread:51972 [handler.py:handle_request():146] handle_request: status_report
+2023-12-23 16:51:33,841 DEBUG   HandlerThread:51972 [handler.py:handle_request():146] handle_request: status_report
+2023-12-23 16:51:38,842 DEBUG   HandlerThread:51972 [handler.py:handle_request():146] handle_request: status_report
+2023-12-23 16:51:39,670 DEBUG   HandlerThread:51972 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-23 16:51:39,671 DEBUG   SenderThread:51972 [sender.py:send_request():409] send_request: stop_status
+2023-12-23 16:51:39,710 DEBUG   HandlerThread:51972 [handler.py:handle_request():146] handle_request: internal_messages
