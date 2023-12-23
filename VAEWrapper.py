@@ -1,6 +1,7 @@
 from HiddenProcessing import *
 # import LDLM
 from LDLM import *
+import torch
 
 class WrappedVAE:
     """
