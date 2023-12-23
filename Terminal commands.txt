@@ -2,6 +2,9 @@ ssh -i ~/.ssh/id_ed25519 joshua_clymer@compute.safe.ai
 
 PW: asdf
 
+To log out of git use:
+git config --local credential.helper ""
+
 srun --partition interactive --cpus-per-task=2 --gpus 2 --pty bash 
 (alias: interactive)
 
