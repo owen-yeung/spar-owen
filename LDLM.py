@@ -1,3 +1,5 @@
+# Based on infer_ldlm.py from the LDLM repo
+
 import argparse
 from contextlib import contextmanager
 from itertools import chain, islice
