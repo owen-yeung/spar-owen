@@ -1,0 +1,511 @@
+2023-12-29 15:49:29,445 INFO    StreamThr :72071 [internal.py:wandb_internal():86] W&B internal server running at pid: 72071, started at: 2023-12-29 15:49:29.444025
+2023-12-29 15:49:29,446 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status
+2023-12-29 15:49:29,450 INFO    WriterThread:72071 [datastore.py:open_for_write():85] open: /data/joshua_clymer/spar-red-team/vae-owen/wandb/run-20231229_154929-6dclrafw/run-6dclrafw.wandb
+2023-12-29 15:49:29,451 DEBUG   SenderThread:72071 [sender.py:send():382] send: header
+2023-12-29 15:49:29,476 DEBUG   SenderThread:72071 [sender.py:send():382] send: run
+2023-12-29 15:49:29,732 INFO    SenderThread:72071 [dir_watcher.py:__init__():211] watching files in: /data/joshua_clymer/spar-red-team/vae-owen/wandb/run-20231229_154929-6dclrafw/files
+2023-12-29 15:49:29,732 INFO    SenderThread:72071 [sender.py:_start_run_threads():1136] run started: 6dclrafw with start time 1703864969.443348
+2023-12-29 15:49:29,743 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: check_version
+2023-12-29 15:49:29,744 DEBUG   SenderThread:72071 [sender.py:send_request():409] send_request: check_version
+2023-12-29 15:49:29,822 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: run_start
+2023-12-29 15:49:29,823 DEBUG   HandlerThread:72071 [system_info.py:__init__():32] System info init
+2023-12-29 15:49:29,823 DEBUG   HandlerThread:72071 [system_info.py:__init__():47] System info init done
+2023-12-29 15:49:29,823 INFO    HandlerThread:72071 [system_monitor.py:start():194] Starting system monitor
+2023-12-29 15:49:29,824 INFO    SystemMonitor:72071 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2023-12-29 15:49:29,825 INFO    HandlerThread:72071 [system_monitor.py:probe():214] Collecting system info
+2023-12-29 15:49:29,825 INFO    SystemMonitor:72071 [interfaces.py:start():190] Started cpu monitoring
+2023-12-29 15:49:29,826 INFO    SystemMonitor:72071 [interfaces.py:start():190] Started disk monitoring
+2023-12-29 15:49:29,827 INFO    SystemMonitor:72071 [interfaces.py:start():190] Started gpu monitoring
+2023-12-29 15:49:29,827 INFO    SystemMonitor:72071 [interfaces.py:start():190] Started memory monitoring
+2023-12-29 15:49:29,829 INFO    SystemMonitor:72071 [interfaces.py:start():190] Started network monitoring
+2023-12-29 15:49:29,857 DEBUG   HandlerThread:72071 [system_info.py:probe():196] Probing system
+2023-12-29 15:49:29,858 DEBUG   HandlerThread:72071 [system_info.py:_probe_git():181] Probing git
+2023-12-29 15:49:29,871 DEBUG   HandlerThread:72071 [system_info.py:_probe_git():189] Probing git done
+2023-12-29 15:49:29,871 DEBUG   HandlerThread:72071 [system_info.py:probe():244] Probing system done
+2023-12-29 15:49:29,871 DEBUG   HandlerThread:72071 [system_monitor.py:probe():223] {'os': 'Linux-3.10.0-1160.83.1.0.1.el7.x86_64-x86_64-with-glibc2.17', 'python': '3.10.13', 'heartbeatAt': '2023-12-29T15:49:29.857789', 'startedAt': '2023-12-29T15:49:29.385648', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'OLVAE_demo-jvsc-0db39d2d-d713-42dd-872f-5b57eeb5717b3f129774-e920-43bb-b65f-11e6a0c0afb2.ipynb', 'codePathLocal': None, 'root': '/data/joshua_clymer/spar-red-team/vae-owen', 'git': {'remote': 'https://github.com/owen-yeung/spar-owen.git', 'commit': '733362fd4547125d501168f942c87fda2a6b1e72'}, 'email': 'owen_yeung@berkeley.edu', 'host': 'compute-permanent-node-918', 'username': 'joshua_clymer', 'executable': '/data/joshua_clymer/miniconda3/envs/redteam2/bin/python', 'cpu_count': 128, 'cpu_count_logical': 128, 'cpu_freq': {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, 'cpu_freq_per_core': [{'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}], 'disk': {'/': {'total': 91.78495407104492, 'used': 81.73169708251953}}, 'gpu': 'NVIDIA A100-SXM4-80GB', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA A100-SXM4-80GB', 'memory_total': 85899345920}], 'memory': {'total': 2015.4624061584473}}
+2023-12-29 15:49:29,871 INFO    HandlerThread:72071 [system_monitor.py:probe():224] Finished collecting system info
+2023-12-29 15:49:29,871 INFO    HandlerThread:72071 [system_monitor.py:probe():227] Publishing system info
+2023-12-29 15:49:29,871 DEBUG   HandlerThread:72071 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2023-12-29 15:49:29,872 DEBUG   HandlerThread:72071 [system_info.py:_save_pip():68] Saving pip packages done
+2023-12-29 15:49:29,873 DEBUG   HandlerThread:72071 [system_info.py:_save_conda():75] Saving list of conda packages installed into the current environment
+2023-12-29 15:49:30,734 INFO    Thread-25 :72071 [dir_watcher.py:_on_file_created():271] file/dir created: /data/joshua_clymer/spar-red-team/vae-owen/wandb/run-20231229_154929-6dclrafw/files/requirements.txt
+2023-12-29 15:49:30,734 INFO    Thread-25 :72071 [dir_watcher.py:_on_file_created():271] file/dir created: /data/joshua_clymer/spar-red-team/vae-owen/wandb/run-20231229_154929-6dclrafw/files/conda-environment.yaml
+2023-12-29 15:49:37,765 DEBUG   HandlerThread:72071 [system_info.py:_save_conda():87] Saving conda packages done
+2023-12-29 15:49:37,767 INFO    HandlerThread:72071 [system_monitor.py:probe():229] Finished publishing system info
+2023-12-29 15:49:37,767 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:49:37,767 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: keepalive
+2023-12-29 15:49:37,768 DEBUG   SenderThread:72071 [sender.py:send():382] send: files
+2023-12-29 15:49:37,768 INFO    SenderThread:72071 [sender.py:_save_file():1392] saving file wandb-metadata.json with policy now
+2023-12-29 15:49:37,779 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-29 15:49:37,779 DEBUG   SenderThread:72071 [sender.py:send_request():409] send_request: stop_status
+2023-12-29 15:49:37,781 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-29 15:49:38,029 DEBUG   SenderThread:72071 [sender.py:send():382] send: telemetry
+2023-12-29 15:49:38,216 INFO    wandb-upload_0:72071 [upload_job.py:push():131] Uploaded file /tmp/tmpn6e09e7iwandb/5lo5ow1q-wandb-metadata.json
+2023-12-29 15:49:38,746 INFO    Thread-25 :72071 [dir_watcher.py:_on_file_created():271] file/dir created: /data/joshua_clymer/spar-red-team/vae-owen/wandb/run-20231229_154929-6dclrafw/files/wandb-metadata.json
+2023-12-29 15:49:38,747 INFO    Thread-25 :72071 [dir_watcher.py:_on_file_created():271] file/dir created: /data/joshua_clymer/spar-red-team/vae-owen/wandb/run-20231229_154929-6dclrafw/files/output.log
+2023-12-29 15:49:40,031 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:49:40,749 INFO    Thread-25 :72071 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/joshua_clymer/spar-red-team/vae-owen/wandb/run-20231229_154929-6dclrafw/files/output.log
+2023-12-29 15:49:45,032 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:49:47,355 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-29 15:49:47,356 DEBUG   SenderThread:72071 [sender.py:send():382] send: history
+2023-12-29 15:49:47,357 DEBUG   SenderThread:72071 [sender.py:send_request():409] send_request: summary_record
+2023-12-29 15:49:47,358 INFO    SenderThread:72071 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2023-12-29 15:49:47,764 INFO    Thread-25 :72071 [dir_watcher.py:_on_file_created():271] file/dir created: /data/joshua_clymer/spar-red-team/vae-owen/wandb/run-20231229_154929-6dclrafw/files/wandb-summary.json
+2023-12-29 15:49:49,767 INFO    Thread-25 :72071 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/joshua_clymer/spar-red-team/vae-owen/wandb/run-20231229_154929-6dclrafw/files/output.log
+2023-12-29 15:49:50,358 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:49:52,779 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-29 15:49:52,780 DEBUG   SenderThread:72071 [sender.py:send_request():409] send_request: stop_status
+2023-12-29 15:49:52,781 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-29 15:49:55,916 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:50:00,920 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:50:01,784 INFO    Thread-25 :72071 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/joshua_clymer/spar-red-team/vae-owen/wandb/run-20231229_154929-6dclrafw/files/config.yaml
+2023-12-29 15:50:06,023 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:50:06,821 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-29 15:50:06,823 DEBUG   SenderThread:72071 [sender.py:send():382] send: history
+2023-12-29 15:50:06,823 DEBUG   SenderThread:72071 [sender.py:send_request():409] send_request: summary_record
+2023-12-29 15:50:06,825 INFO    SenderThread:72071 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2023-12-29 15:50:07,779 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-29 15:50:07,780 DEBUG   SenderThread:72071 [sender.py:send_request():409] send_request: stop_status
+2023-12-29 15:50:07,781 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-29 15:50:07,792 INFO    Thread-25 :72071 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/joshua_clymer/spar-red-team/vae-owen/wandb/run-20231229_154929-6dclrafw/files/output.log
+2023-12-29 15:50:07,792 INFO    Thread-25 :72071 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/joshua_clymer/spar-red-team/vae-owen/wandb/run-20231229_154929-6dclrafw/files/wandb-summary.json
+2023-12-29 15:50:11,959 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:50:16,960 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:50:21,960 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:50:22,780 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-29 15:50:22,780 DEBUG   SenderThread:72071 [sender.py:send_request():409] send_request: stop_status
+2023-12-29 15:50:22,819 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-29 15:50:26,082 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-29 15:50:26,083 DEBUG   SenderThread:72071 [sender.py:send():382] send: history
+2023-12-29 15:50:26,084 DEBUG   SenderThread:72071 [sender.py:send_request():409] send_request: summary_record
+2023-12-29 15:50:26,086 INFO    SenderThread:72071 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2023-12-29 15:50:26,818 INFO    Thread-25 :72071 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/joshua_clymer/spar-red-team/vae-owen/wandb/run-20231229_154929-6dclrafw/files/wandb-summary.json
+2023-12-29 15:50:27,086 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:50:27,820 INFO    Thread-25 :72071 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/joshua_clymer/spar-red-team/vae-owen/wandb/run-20231229_154929-6dclrafw/files/output.log
+2023-12-29 15:50:29,829 DEBUG   SystemMonitor:72071 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2023-12-29 15:50:29,831 DEBUG   SenderThread:72071 [sender.py:send():382] send: stats
+2023-12-29 15:50:32,833 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:50:37,780 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-29 15:50:37,780 DEBUG   SenderThread:72071 [sender.py:send_request():409] send_request: stop_status
+2023-12-29 15:50:37,782 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-29 15:50:37,912 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:50:42,912 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:50:45,365 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-29 15:50:45,367 DEBUG   SenderThread:72071 [sender.py:send():382] send: history
+2023-12-29 15:50:45,367 DEBUG   SenderThread:72071 [sender.py:send_request():409] send_request: summary_record
+2023-12-29 15:50:45,368 INFO    SenderThread:72071 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2023-12-29 15:50:45,845 INFO    Thread-25 :72071 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/joshua_clymer/spar-red-team/vae-owen/wandb/run-20231229_154929-6dclrafw/files/output.log
+2023-12-29 15:50:45,846 INFO    Thread-25 :72071 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/joshua_clymer/spar-red-team/vae-owen/wandb/run-20231229_154929-6dclrafw/files/wandb-summary.json
+2023-12-29 15:50:48,369 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:50:52,780 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-29 15:50:52,780 DEBUG   SenderThread:72071 [sender.py:send_request():409] send_request: stop_status
+2023-12-29 15:50:52,782 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-29 15:50:53,883 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:50:58,884 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:50:59,833 DEBUG   SenderThread:72071 [sender.py:send():382] send: stats
+2023-12-29 15:51:03,893 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:51:03,932 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-29 15:51:03,933 DEBUG   SenderThread:72071 [sender.py:send():382] send: history
+2023-12-29 15:51:03,933 DEBUG   SenderThread:72071 [sender.py:send_request():409] send_request: summary_record
+2023-12-29 15:51:03,935 INFO    SenderThread:72071 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2023-12-29 15:51:04,871 INFO    Thread-25 :72071 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/joshua_clymer/spar-red-team/vae-owen/wandb/run-20231229_154929-6dclrafw/files/wandb-summary.json
+2023-12-29 15:51:05,873 INFO    Thread-25 :72071 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/joshua_clymer/spar-red-team/vae-owen/wandb/run-20231229_154929-6dclrafw/files/output.log
+2023-12-29 15:51:07,780 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-29 15:51:07,780 DEBUG   SenderThread:72071 [sender.py:send_request():409] send_request: stop_status
+2023-12-29 15:51:07,782 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-29 15:51:08,934 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:51:13,935 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:51:18,935 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:51:22,504 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-29 15:51:22,505 DEBUG   SenderThread:72071 [sender.py:send():382] send: history
+2023-12-29 15:51:22,506 DEBUG   SenderThread:72071 [sender.py:send_request():409] send_request: summary_record
+2023-12-29 15:51:22,508 INFO    SenderThread:72071 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2023-12-29 15:51:22,780 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-29 15:51:22,780 DEBUG   SenderThread:72071 [sender.py:send_request():409] send_request: stop_status
+2023-12-29 15:51:22,782 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-29 15:51:22,897 INFO    Thread-25 :72071 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/joshua_clymer/spar-red-team/vae-owen/wandb/run-20231229_154929-6dclrafw/files/wandb-summary.json
+2023-12-29 15:51:23,899 INFO    Thread-25 :72071 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/joshua_clymer/spar-red-team/vae-owen/wandb/run-20231229_154929-6dclrafw/files/output.log
+2023-12-29 15:51:24,910 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:51:29,834 DEBUG   SenderThread:72071 [sender.py:send():382] send: stats
+2023-12-29 15:51:30,836 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:51:35,836 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:51:37,780 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-29 15:51:37,780 DEBUG   SenderThread:72071 [sender.py:send_request():409] send_request: stop_status
+2023-12-29 15:51:37,819 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-29 15:51:40,952 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:51:41,095 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-29 15:51:41,096 DEBUG   SenderThread:72071 [sender.py:send():382] send: history
+2023-12-29 15:51:41,097 DEBUG   SenderThread:72071 [sender.py:send_request():409] send_request: summary_record
+2023-12-29 15:51:41,098 INFO    SenderThread:72071 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2023-12-29 15:51:41,925 INFO    Thread-25 :72071 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/joshua_clymer/spar-red-team/vae-owen/wandb/run-20231229_154929-6dclrafw/files/output.log
+2023-12-29 15:51:41,925 INFO    Thread-25 :72071 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/joshua_clymer/spar-red-team/vae-owen/wandb/run-20231229_154929-6dclrafw/files/wandb-summary.json
+2023-12-29 15:51:46,099 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:51:51,099 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:51:52,780 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-29 15:51:52,781 DEBUG   SenderThread:72071 [sender.py:send_request():409] send_request: stop_status
+2023-12-29 15:51:52,782 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-29 15:51:56,913 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:51:59,601 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-29 15:51:59,602 DEBUG   SenderThread:72071 [sender.py:send():382] send: history
+2023-12-29 15:51:59,603 DEBUG   SenderThread:72071 [sender.py:send_request():409] send_request: summary_record
+2023-12-29 15:51:59,604 INFO    SenderThread:72071 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2023-12-29 15:51:59,836 DEBUG   SenderThread:72071 [sender.py:send():382] send: stats
+2023-12-29 15:51:59,952 INFO    Thread-25 :72071 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/joshua_clymer/spar-red-team/vae-owen/wandb/run-20231229_154929-6dclrafw/files/wandb-summary.json
+2023-12-29 15:52:01,955 INFO    Thread-25 :72071 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/joshua_clymer/spar-red-team/vae-owen/wandb/run-20231229_154929-6dclrafw/files/output.log
+2023-12-29 15:52:02,837 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:52:07,780 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-29 15:52:07,781 DEBUG   SenderThread:72071 [sender.py:send_request():409] send_request: stop_status
+2023-12-29 15:52:07,782 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-29 15:52:07,894 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:52:12,895 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:52:17,896 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:52:18,033 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-29 15:52:18,034 DEBUG   SenderThread:72071 [sender.py:send():382] send: history
+2023-12-29 15:52:18,035 DEBUG   SenderThread:72071 [sender.py:send_request():409] send_request: summary_record
+2023-12-29 15:52:18,037 INFO    SenderThread:72071 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2023-12-29 15:52:18,979 INFO    Thread-25 :72071 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/joshua_clymer/spar-red-team/vae-owen/wandb/run-20231229_154929-6dclrafw/files/wandb-summary.json
+2023-12-29 15:52:19,980 INFO    Thread-25 :72071 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/joshua_clymer/spar-red-team/vae-owen/wandb/run-20231229_154929-6dclrafw/files/output.log
+2023-12-29 15:52:22,796 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-29 15:52:22,796 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-29 15:52:22,797 DEBUG   SenderThread:72071 [sender.py:send_request():409] send_request: stop_status
+2023-12-29 15:52:23,881 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:52:28,882 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:52:29,837 DEBUG   SenderThread:72071 [sender.py:send():382] send: stats
+2023-12-29 15:52:34,839 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:52:36,488 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-29 15:52:36,489 DEBUG   SenderThread:72071 [sender.py:send():382] send: history
+2023-12-29 15:52:36,489 DEBUG   SenderThread:72071 [sender.py:send_request():409] send_request: summary_record
+2023-12-29 15:52:36,491 INFO    SenderThread:72071 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2023-12-29 15:52:37,003 INFO    Thread-25 :72071 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/joshua_clymer/spar-red-team/vae-owen/wandb/run-20231229_154929-6dclrafw/files/wandb-summary.json
+2023-12-29 15:52:37,786 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-29 15:52:37,787 DEBUG   SenderThread:72071 [sender.py:send_request():409] send_request: stop_status
+2023-12-29 15:52:37,796 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-29 15:52:38,005 INFO    Thread-25 :72071 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/joshua_clymer/spar-red-team/vae-owen/wandb/run-20231229_154929-6dclrafw/files/output.log
+2023-12-29 15:52:39,906 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:52:44,907 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:52:49,907 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:52:52,786 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-29 15:52:52,786 DEBUG   SenderThread:72071 [sender.py:send_request():409] send_request: stop_status
+2023-12-29 15:52:52,826 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-29 15:52:54,917 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:52:54,956 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-29 15:52:54,957 DEBUG   SenderThread:72071 [sender.py:send():382] send: history
+2023-12-29 15:52:54,957 DEBUG   SenderThread:72071 [sender.py:send_request():409] send_request: summary_record
+2023-12-29 15:52:54,959 INFO    SenderThread:72071 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2023-12-29 15:52:55,031 INFO    Thread-25 :72071 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/joshua_clymer/spar-red-team/vae-owen/wandb/run-20231229_154929-6dclrafw/files/wandb-summary.json
+2023-12-29 15:52:56,032 INFO    Thread-25 :72071 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/joshua_clymer/spar-red-team/vae-owen/wandb/run-20231229_154929-6dclrafw/files/output.log
+2023-12-29 15:52:59,840 DEBUG   SenderThread:72071 [sender.py:send():382] send: stats
+2023-12-29 15:53:00,841 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:53:05,841 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:53:07,786 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-29 15:53:07,787 DEBUG   SenderThread:72071 [sender.py:send_request():409] send_request: stop_status
+2023-12-29 15:53:07,796 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-29 15:53:10,949 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:53:14,027 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-29 15:53:14,028 DEBUG   SenderThread:72071 [sender.py:send():382] send: history
+2023-12-29 15:53:14,029 DEBUG   SenderThread:72071 [sender.py:send_request():409] send_request: summary_record
+2023-12-29 15:53:14,031 INFO    SenderThread:72071 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2023-12-29 15:53:14,057 INFO    Thread-25 :72071 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/joshua_clymer/spar-red-team/vae-owen/wandb/run-20231229_154929-6dclrafw/files/wandb-summary.json
+2023-12-29 15:53:16,031 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:53:16,061 INFO    Thread-25 :72071 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/joshua_clymer/spar-red-team/vae-owen/wandb/run-20231229_154929-6dclrafw/files/output.log
+2023-12-29 15:53:21,032 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:53:22,786 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-29 15:53:22,787 DEBUG   SenderThread:72071 [sender.py:send_request():409] send_request: stop_status
+2023-12-29 15:53:22,796 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-29 15:53:26,915 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:53:29,840 DEBUG   SenderThread:72071 [sender.py:send():382] send: stats
+2023-12-29 15:53:32,842 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:53:33,353 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-29 15:53:33,354 DEBUG   SenderThread:72071 [sender.py:send():382] send: history
+2023-12-29 15:53:33,355 DEBUG   SenderThread:72071 [sender.py:send_request():409] send_request: summary_record
+2023-12-29 15:53:33,363 INFO    SenderThread:72071 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2023-12-29 15:53:34,087 INFO    Thread-25 :72071 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/joshua_clymer/spar-red-team/vae-owen/wandb/run-20231229_154929-6dclrafw/files/output.log
+2023-12-29 15:53:34,087 INFO    Thread-25 :72071 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/joshua_clymer/spar-red-team/vae-owen/wandb/run-20231229_154929-6dclrafw/files/wandb-summary.json
+2023-12-29 15:53:37,786 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-29 15:53:37,787 DEBUG   SenderThread:72071 [sender.py:send_request():409] send_request: stop_status
+2023-12-29 15:53:37,796 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-29 15:53:37,925 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:53:42,925 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:53:47,926 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:53:52,719 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-29 15:53:52,720 DEBUG   SenderThread:72071 [sender.py:send():382] send: history
+2023-12-29 15:53:52,721 DEBUG   SenderThread:72071 [sender.py:send_request():409] send_request: summary_record
+2023-12-29 15:53:52,723 INFO    SenderThread:72071 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2023-12-29 15:53:52,787 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-29 15:53:52,787 DEBUG   SenderThread:72071 [sender.py:send_request():409] send_request: stop_status
+2023-12-29 15:53:52,826 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-29 15:53:53,119 INFO    Thread-25 :72071 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/joshua_clymer/spar-red-team/vae-owen/wandb/run-20231229_154929-6dclrafw/files/wandb-summary.json
+2023-12-29 15:53:53,890 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:53:54,120 INFO    Thread-25 :72071 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/joshua_clymer/spar-red-team/vae-owen/wandb/run-20231229_154929-6dclrafw/files/output.log
+2023-12-29 15:53:58,891 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:53:59,842 DEBUG   SenderThread:72071 [sender.py:send():382] send: stats
+2023-12-29 15:54:04,843 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:54:07,787 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-29 15:54:07,787 DEBUG   SenderThread:72071 [sender.py:send_request():409] send_request: stop_status
+2023-12-29 15:54:07,826 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-29 15:54:09,889 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:54:12,084 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-29 15:54:12,085 DEBUG   SenderThread:72071 [sender.py:send():382] send: history
+2023-12-29 15:54:12,086 DEBUG   SenderThread:72071 [sender.py:send_request():409] send_request: summary_record
+2023-12-29 15:54:12,087 INFO    SenderThread:72071 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2023-12-29 15:54:12,151 INFO    Thread-25 :72071 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/joshua_clymer/spar-red-team/vae-owen/wandb/run-20231229_154929-6dclrafw/files/wandb-summary.json
+2023-12-29 15:54:14,154 INFO    Thread-25 :72071 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/joshua_clymer/spar-red-team/vae-owen/wandb/run-20231229_154929-6dclrafw/files/output.log
+2023-12-29 15:54:15,088 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:54:20,088 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:54:22,787 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-29 15:54:22,787 DEBUG   SenderThread:72071 [sender.py:send_request():409] send_request: stop_status
+2023-12-29 15:54:22,797 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-29 15:54:25,966 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:54:29,844 DEBUG   SenderThread:72071 [sender.py:send():382] send: stats
+2023-12-29 15:54:31,845 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:54:31,910 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-29 15:54:31,911 DEBUG   SenderThread:72071 [sender.py:send():382] send: history
+2023-12-29 15:54:31,912 DEBUG   SenderThread:72071 [sender.py:send_request():409] send_request: summary_record
+2023-12-29 15:54:31,913 INFO    SenderThread:72071 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2023-12-29 15:54:32,181 INFO    Thread-25 :72071 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/joshua_clymer/spar-red-team/vae-owen/wandb/run-20231229_154929-6dclrafw/files/wandb-summary.json
+2023-12-29 15:54:34,184 INFO    Thread-25 :72071 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/joshua_clymer/spar-red-team/vae-owen/wandb/run-20231229_154929-6dclrafw/files/output.log
+2023-12-29 15:54:36,914 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:54:37,787 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-29 15:54:37,787 DEBUG   SenderThread:72071 [sender.py:send_request():409] send_request: stop_status
+2023-12-29 15:54:37,797 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-29 15:54:41,952 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:54:46,952 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:54:51,548 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-29 15:54:51,549 DEBUG   SenderThread:72071 [sender.py:send():382] send: history
+2023-12-29 15:54:51,550 DEBUG   SenderThread:72071 [sender.py:send_request():409] send_request: summary_record
+2023-12-29 15:54:51,551 INFO    SenderThread:72071 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2023-12-29 15:54:52,221 INFO    Thread-25 :72071 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/joshua_clymer/spar-red-team/vae-owen/wandb/run-20231229_154929-6dclrafw/files/output.log
+2023-12-29 15:54:52,221 INFO    Thread-25 :72071 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/joshua_clymer/spar-red-team/vae-owen/wandb/run-20231229_154929-6dclrafw/files/wandb-summary.json
+2023-12-29 15:54:52,551 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:54:52,787 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-29 15:54:52,787 DEBUG   SenderThread:72071 [sender.py:send_request():409] send_request: stop_status
+2023-12-29 15:54:52,826 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-29 15:54:57,897 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:54:59,845 DEBUG   SenderThread:72071 [sender.py:send():382] send: stats
+2023-12-29 15:55:03,846 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:55:07,788 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-29 15:55:07,788 DEBUG   SenderThread:72071 [sender.py:send_request():409] send_request: stop_status
+2023-12-29 15:55:07,827 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-29 15:55:08,907 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:55:10,843 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-29 15:55:10,844 DEBUG   SenderThread:72071 [sender.py:send():382] send: history
+2023-12-29 15:55:10,845 DEBUG   SenderThread:72071 [sender.py:send_request():409] send_request: summary_record
+2023-12-29 15:55:10,846 INFO    SenderThread:72071 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2023-12-29 15:55:11,255 INFO    Thread-25 :72071 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/joshua_clymer/spar-red-team/vae-owen/wandb/run-20231229_154929-6dclrafw/files/wandb-summary.json
+2023-12-29 15:55:12,257 INFO    Thread-25 :72071 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/joshua_clymer/spar-red-team/vae-owen/wandb/run-20231229_154929-6dclrafw/files/output.log
+2023-12-29 15:55:14,847 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:55:19,847 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:55:22,787 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-29 15:55:22,788 DEBUG   SenderThread:72071 [sender.py:send_request():409] send_request: stop_status
+2023-12-29 15:55:22,797 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-29 15:55:24,896 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:55:29,847 DEBUG   SenderThread:72071 [sender.py:send():382] send: stats
+2023-12-29 15:55:30,425 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:55:30,464 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-29 15:55:30,465 DEBUG   SenderThread:72071 [sender.py:send():382] send: history
+2023-12-29 15:55:30,466 DEBUG   SenderThread:72071 [sender.py:send_request():409] send_request: summary_record
+2023-12-29 15:55:30,467 INFO    SenderThread:72071 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2023-12-29 15:55:31,293 INFO    Thread-25 :72071 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/joshua_clymer/spar-red-team/vae-owen/wandb/run-20231229_154929-6dclrafw/files/wandb-summary.json
+2023-12-29 15:55:32,294 INFO    Thread-25 :72071 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/joshua_clymer/spar-red-team/vae-owen/wandb/run-20231229_154929-6dclrafw/files/output.log
+2023-12-29 15:55:35,468 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:55:37,787 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-29 15:55:37,788 DEBUG   SenderThread:72071 [sender.py:send_request():409] send_request: stop_status
+2023-12-29 15:55:37,798 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-29 15:55:40,963 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:55:45,963 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:55:50,262 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-29 15:55:50,264 DEBUG   SenderThread:72071 [sender.py:send():382] send: history
+2023-12-29 15:55:50,264 DEBUG   SenderThread:72071 [sender.py:send_request():409] send_request: summary_record
+2023-12-29 15:55:50,266 INFO    SenderThread:72071 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2023-12-29 15:55:50,325 INFO    Thread-25 :72071 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/joshua_clymer/spar-red-team/vae-owen/wandb/run-20231229_154929-6dclrafw/files/wandb-summary.json
+2023-12-29 15:55:51,266 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:55:52,328 INFO    Thread-25 :72071 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/joshua_clymer/spar-red-team/vae-owen/wandb/run-20231229_154929-6dclrafw/files/output.log
+2023-12-29 15:55:52,787 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-29 15:55:52,788 DEBUG   SenderThread:72071 [sender.py:send_request():409] send_request: stop_status
+2023-12-29 15:55:52,827 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-29 15:55:56,971 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:55:59,849 DEBUG   SenderThread:72071 [sender.py:send():382] send: stats
+2023-12-29 15:56:02,850 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:56:07,788 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-29 15:56:07,788 DEBUG   SenderThread:72071 [sender.py:send_request():409] send_request: stop_status
+2023-12-29 15:56:07,827 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-29 15:56:07,970 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:56:10,034 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-29 15:56:10,035 DEBUG   SenderThread:72071 [sender.py:send():382] send: history
+2023-12-29 15:56:10,036 DEBUG   SenderThread:72071 [sender.py:send_request():409] send_request: summary_record
+2023-12-29 15:56:10,037 INFO    SenderThread:72071 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2023-12-29 15:56:10,356 INFO    Thread-25 :72071 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/joshua_clymer/spar-red-team/vae-owen/wandb/run-20231229_154929-6dclrafw/files/wandb-summary.json
+2023-12-29 15:56:12,364 INFO    Thread-25 :72071 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/joshua_clymer/spar-red-team/vae-owen/wandb/run-20231229_154929-6dclrafw/files/output.log
+2023-12-29 15:56:13,038 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:56:18,038 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:56:22,788 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-29 15:56:22,788 DEBUG   SenderThread:72071 [sender.py:send_request():409] send_request: stop_status
+2023-12-29 15:56:22,798 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-29 15:56:23,903 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:56:28,904 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:56:29,464 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-29 15:56:29,465 DEBUG   SenderThread:72071 [sender.py:send():382] send: history
+2023-12-29 15:56:29,466 DEBUG   SenderThread:72071 [sender.py:send_request():409] send_request: summary_record
+2023-12-29 15:56:29,467 INFO    SenderThread:72071 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2023-12-29 15:56:29,849 DEBUG   SenderThread:72071 [sender.py:send():382] send: stats
+2023-12-29 15:56:30,391 INFO    Thread-25 :72071 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/joshua_clymer/spar-red-team/vae-owen/wandb/run-20231229_154929-6dclrafw/files/output.log
+2023-12-29 15:56:30,391 INFO    Thread-25 :72071 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/joshua_clymer/spar-red-team/vae-owen/wandb/run-20231229_154929-6dclrafw/files/wandb-summary.json
+2023-12-29 15:56:34,851 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:56:37,788 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-29 15:56:37,788 DEBUG   SenderThread:72071 [sender.py:send_request():409] send_request: stop_status
+2023-12-29 15:56:37,798 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-29 15:56:39,884 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:56:44,885 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:56:49,306 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-29 15:56:49,307 DEBUG   SenderThread:72071 [sender.py:send():382] send: history
+2023-12-29 15:56:49,308 DEBUG   SenderThread:72071 [sender.py:send_request():409] send_request: summary_record
+2023-12-29 15:56:49,309 INFO    SenderThread:72071 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2023-12-29 15:56:49,420 INFO    Thread-25 :72071 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/joshua_clymer/spar-red-team/vae-owen/wandb/run-20231229_154929-6dclrafw/files/wandb-summary.json
+2023-12-29 15:56:50,310 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:56:50,421 INFO    Thread-25 :72071 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/joshua_clymer/spar-red-team/vae-owen/wandb/run-20231229_154929-6dclrafw/files/output.log
+2023-12-29 15:56:52,788 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-29 15:56:52,788 DEBUG   SenderThread:72071 [sender.py:send_request():409] send_request: stop_status
+2023-12-29 15:56:52,798 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-29 15:56:55,961 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:56:59,851 DEBUG   SenderThread:72071 [sender.py:send():382] send: stats
+2023-12-29 15:57:01,852 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:57:06,853 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:57:07,788 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-29 15:57:07,788 DEBUG   SenderThread:72071 [sender.py:send_request():409] send_request: stop_status
+2023-12-29 15:57:07,828 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-29 15:57:09,049 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-29 15:57:09,050 DEBUG   SenderThread:72071 [sender.py:send():382] send: history
+2023-12-29 15:57:09,051 DEBUG   SenderThread:72071 [sender.py:send_request():409] send_request: summary_record
+2023-12-29 15:57:09,052 INFO    SenderThread:72071 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2023-12-29 15:57:09,449 INFO    Thread-25 :72071 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/joshua_clymer/spar-red-team/vae-owen/wandb/run-20231229_154929-6dclrafw/files/wandb-summary.json
+2023-12-29 15:57:10,451 INFO    Thread-25 :72071 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/joshua_clymer/spar-red-team/vae-owen/wandb/run-20231229_154929-6dclrafw/files/output.log
+2023-12-29 15:57:12,053 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:57:17,053 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:57:22,054 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:57:22,788 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-29 15:57:22,788 DEBUG   SenderThread:72071 [sender.py:send_request():409] send_request: stop_status
+2023-12-29 15:57:22,798 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-29 15:57:27,908 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:57:28,753 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-29 15:57:28,754 DEBUG   SenderThread:72071 [sender.py:send():382] send: history
+2023-12-29 15:57:28,755 DEBUG   SenderThread:72071 [sender.py:send_request():409] send_request: summary_record
+2023-12-29 15:57:28,756 INFO    SenderThread:72071 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2023-12-29 15:57:29,478 INFO    Thread-25 :72071 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/joshua_clymer/spar-red-team/vae-owen/wandb/run-20231229_154929-6dclrafw/files/wandb-summary.json
+2023-12-29 15:57:29,853 DEBUG   SenderThread:72071 [sender.py:send():382] send: stats
+2023-12-29 15:57:30,480 INFO    Thread-25 :72071 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/joshua_clymer/spar-red-team/vae-owen/wandb/run-20231229_154929-6dclrafw/files/output.log
+2023-12-29 15:57:33,854 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:57:37,788 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-29 15:57:37,788 DEBUG   SenderThread:72071 [sender.py:send_request():409] send_request: stop_status
+2023-12-29 15:57:37,798 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-29 15:57:38,980 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:57:43,980 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:57:48,387 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-29 15:57:48,388 DEBUG   SenderThread:72071 [sender.py:send():382] send: history
+2023-12-29 15:57:48,389 DEBUG   SenderThread:72071 [sender.py:send_request():409] send_request: summary_record
+2023-12-29 15:57:48,390 INFO    SenderThread:72071 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2023-12-29 15:57:48,506 INFO    Thread-25 :72071 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/joshua_clymer/spar-red-team/vae-owen/wandb/run-20231229_154929-6dclrafw/files/wandb-summary.json
+2023-12-29 15:57:49,391 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:57:50,509 INFO    Thread-25 :72071 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/joshua_clymer/spar-red-team/vae-owen/wandb/run-20231229_154929-6dclrafw/files/output.log
+2023-12-29 15:57:52,788 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-29 15:57:52,789 DEBUG   SenderThread:72071 [sender.py:send_request():409] send_request: stop_status
+2023-12-29 15:57:52,828 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-29 15:57:54,913 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:57:59,854 DEBUG   SenderThread:72071 [sender.py:send():382] send: stats
+2023-12-29 15:58:00,855 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:58:05,856 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:58:07,534 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-29 15:58:07,536 DEBUG   SenderThread:72071 [sender.py:send():382] send: history
+2023-12-29 15:58:07,536 DEBUG   SenderThread:72071 [sender.py:send_request():409] send_request: summary_record
+2023-12-29 15:58:07,538 INFO    SenderThread:72071 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2023-12-29 15:58:07,788 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-29 15:58:07,789 DEBUG   SenderThread:72071 [sender.py:send_request():409] send_request: stop_status
+2023-12-29 15:58:07,799 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-29 15:58:08,535 INFO    Thread-25 :72071 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/joshua_clymer/spar-red-team/vae-owen/wandb/run-20231229_154929-6dclrafw/files/output.log
+2023-12-29 15:58:08,536 INFO    Thread-25 :72071 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/joshua_clymer/spar-red-team/vae-owen/wandb/run-20231229_154929-6dclrafw/files/wandb-summary.json
+2023-12-29 15:58:10,954 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:58:15,954 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:58:20,955 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:58:22,789 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-29 15:58:22,789 DEBUG   SenderThread:72071 [sender.py:send_request():409] send_request: stop_status
+2023-12-29 15:58:22,828 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-29 15:58:26,922 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:58:27,222 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-29 15:58:27,223 DEBUG   SenderThread:72071 [sender.py:send():382] send: history
+2023-12-29 15:58:27,224 DEBUG   SenderThread:72071 [sender.py:send_request():409] send_request: summary_record
+2023-12-29 15:58:27,225 INFO    SenderThread:72071 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2023-12-29 15:58:27,563 INFO    Thread-25 :72071 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/joshua_clymer/spar-red-team/vae-owen/wandb/run-20231229_154929-6dclrafw/files/wandb-summary.json
+2023-12-29 15:58:28,565 INFO    Thread-25 :72071 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/joshua_clymer/spar-red-team/vae-owen/wandb/run-20231229_154929-6dclrafw/files/output.log
+2023-12-29 15:58:29,855 DEBUG   SenderThread:72071 [sender.py:send():382] send: stats
+2023-12-29 15:58:32,857 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:58:37,789 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-29 15:58:37,789 DEBUG   SenderThread:72071 [sender.py:send_request():409] send_request: stop_status
+2023-12-29 15:58:37,799 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-29 15:58:37,866 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:58:42,867 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:58:47,030 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-29 15:58:47,032 DEBUG   SenderThread:72071 [sender.py:send():382] send: history
+2023-12-29 15:58:47,032 DEBUG   SenderThread:72071 [sender.py:send_request():409] send_request: summary_record
+2023-12-29 15:58:47,053 INFO    SenderThread:72071 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2023-12-29 15:58:47,593 INFO    Thread-25 :72071 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/joshua_clymer/spar-red-team/vae-owen/wandb/run-20231229_154929-6dclrafw/files/wandb-summary.json
+2023-12-29 15:58:48,054 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:58:48,594 INFO    Thread-25 :72071 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/joshua_clymer/spar-red-team/vae-owen/wandb/run-20231229_154929-6dclrafw/files/output.log
+2023-12-29 15:58:52,789 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-29 15:58:52,789 DEBUG   SenderThread:72071 [sender.py:send_request():409] send_request: stop_status
+2023-12-29 15:58:52,799 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-29 15:58:53,909 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:58:58,909 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:58:59,857 DEBUG   SenderThread:72071 [sender.py:send():382] send: stats
+2023-12-29 15:59:04,858 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:59:06,461 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-29 15:59:06,463 DEBUG   SenderThread:72071 [sender.py:send():382] send: history
+2023-12-29 15:59:06,463 DEBUG   SenderThread:72071 [sender.py:send_request():409] send_request: summary_record
+2023-12-29 15:59:06,470 INFO    SenderThread:72071 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2023-12-29 15:59:06,629 INFO    Thread-25 :72071 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/joshua_clymer/spar-red-team/vae-owen/wandb/run-20231229_154929-6dclrafw/files/wandb-summary.json
+2023-12-29 15:59:07,789 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-29 15:59:07,789 DEBUG   SenderThread:72071 [sender.py:send_request():409] send_request: stop_status
+2023-12-29 15:59:07,799 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-29 15:59:08,632 INFO    Thread-25 :72071 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/joshua_clymer/spar-red-team/vae-owen/wandb/run-20231229_154929-6dclrafw/files/output.log
+2023-12-29 15:59:09,967 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:59:14,967 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:59:19,968 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:59:22,789 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-29 15:59:22,789 DEBUG   SenderThread:72071 [sender.py:send_request():409] send_request: stop_status
+2023-12-29 15:59:22,829 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-29 15:59:25,942 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:59:26,229 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-29 15:59:26,230 DEBUG   SenderThread:72071 [sender.py:send():382] send: history
+2023-12-29 15:59:26,231 DEBUG   SenderThread:72071 [sender.py:send_request():409] send_request: summary_record
+2023-12-29 15:59:26,232 INFO    SenderThread:72071 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2023-12-29 15:59:26,660 INFO    Thread-25 :72071 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/joshua_clymer/spar-red-team/vae-owen/wandb/run-20231229_154929-6dclrafw/files/wandb-summary.json
+2023-12-29 15:59:28,663 INFO    Thread-25 :72071 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/joshua_clymer/spar-red-team/vae-owen/wandb/run-20231229_154929-6dclrafw/files/output.log
+2023-12-29 15:59:29,858 DEBUG   SenderThread:72071 [sender.py:send():382] send: stats
+2023-12-29 15:59:31,859 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:59:36,860 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:59:37,789 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-29 15:59:37,789 DEBUG   SenderThread:72071 [sender.py:send_request():409] send_request: stop_status
+2023-12-29 15:59:37,799 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-29 15:59:41,894 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:59:46,185 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-29 15:59:46,187 DEBUG   SenderThread:72071 [sender.py:send():382] send: history
+2023-12-29 15:59:46,187 DEBUG   SenderThread:72071 [sender.py:send_request():409] send_request: summary_record
+2023-12-29 15:59:46,188 INFO    SenderThread:72071 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2023-12-29 15:59:46,690 INFO    Thread-25 :72071 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/joshua_clymer/spar-red-team/vae-owen/wandb/run-20231229_154929-6dclrafw/files/wandb-summary.json
+2023-12-29 15:59:47,189 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:59:48,694 INFO    Thread-25 :72071 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/joshua_clymer/spar-red-team/vae-owen/wandb/run-20231229_154929-6dclrafw/files/output.log
+2023-12-29 15:59:52,189 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:59:52,789 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-29 15:59:52,790 DEBUG   SenderThread:72071 [sender.py:send_request():409] send_request: stop_status
+2023-12-29 15:59:52,799 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-29 15:59:57,946 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 15:59:59,860 DEBUG   SenderThread:72071 [sender.py:send():382] send: stats
+2023-12-29 16:00:03,861 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report
+2023-12-29 16:00:06,097 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-29 16:00:06,098 DEBUG   SenderThread:72071 [sender.py:send():382] send: history
+2023-12-29 16:00:06,099 DEBUG   SenderThread:72071 [sender.py:send_request():409] send_request: summary_record
+2023-12-29 16:00:06,100 INFO    SenderThread:72071 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2023-12-29 16:00:06,730 INFO    Thread-25 :72071 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/joshua_clymer/spar-red-team/vae-owen/wandb/run-20231229_154929-6dclrafw/files/wandb-summary.json
+2023-12-29 16:00:07,789 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-29 16:00:07,790 DEBUG   SenderThread:72071 [sender.py:send_request():409] send_request: stop_status
+2023-12-29 16:00:07,800 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-29 16:00:08,734 INFO    Thread-25 :72071 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/joshua_clymer/spar-red-team/vae-owen/wandb/run-20231229_154929-6dclrafw/files/output.log
+2023-12-29 16:00:08,959 DEBUG   HandlerThread:72071 [handler.py:handle_request():146] handle_request: status_report

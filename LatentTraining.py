@@ -5,6 +5,8 @@ import torch.nn.functional as F
 import matplotlib.pyplot as plt
 import wandb
 from transformers import Trainer, TrainingArguments
+from torch.optim.lr_scheduler import LambdaLR
+
 
 
 class LatentTrainer(Trainer):
@@ -114,6 +116,8 @@ class LatentTrainer(Trainer):
         num_steps = int(self.args.num_train_epochs)
         latent_module = self.model
         
+        scheduler = LambdaLR(optimizer, lr_lambda=exponential_lr)
+
 
         for step in range(num_steps):
             # for step, batch in enumerate(self.get_train_dataloader()):
@@ -133,6 +137,9 @@ class LatentTrainer(Trainer):
             #     print(f'Before step: {name}, {param.data}')
 
             optimizer.step()
+
+            scheduler.step()
+
 
             # After optimizer.step()
             # for name, param in self.model.named_parameters():
@@ -160,3 +167,16 @@ class LatentTrainer(Trainer):
             'loss': loss_scalar
             }
         return training_state
+
+# Define the exponential function
+def exponential_lr(step):
+    #TODO pass these as args
+    initial_lr = 1e-10
+    # final_lr = 1e-10
+    # num_epochs = 100  # Adjust this value as needed
+
+    # Multiply lr by 10 every 5 steps
+    exponent = step // 5
+    lr = initial_lr * 1e1 ** exponent
+
+    return lr
