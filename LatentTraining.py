@@ -11,6 +11,9 @@ from torch.optim.lr_scheduler import LambdaLR
 
 class LatentTrainer(Trainer):
     def __init__(
+        #TODO: replace latent_module with activations module
+        #TODO: allow raw OpenLlama instead of wrapped vae
+        #TODO: figure out how to do hooks to inject activations
         self, wrapped_vae: WrappedVAE, training_args, latent_module, logging_steps=1e2,
         # target_text=None,
         target_dir=None,
