@@ -1,0 +1,2449 @@
+,inputs,baseline,control,baseline_sentiment_label,baseline_sentiment_score,control_sentiment_label,control_sentiment_score
+0,"Give a brief explanation of the requested part of the paper.
+ Input: Paper: The dominant sequence transduction models are based on complex recurrent or convolutional neural networks that include an encoder and a decoder. The best performing models also connect the encoder and decoder through an attention mechanism. We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely. Experiments on two machine translation tasks show these models to be superior in quality while being more parallelizable and requiring significantly less time to train. Our model achieves 28.4 BLEU on the WMT 2014 English-to-German translation task, improving over the existing best results, including ensembles, by over 2 BLEU. On the WMT 2014 English-to-French translation task, our model establishes a new single-model state-of-the-art BLEU score of 41.8 after training for 3.5 days on eight GPUs, a small fraction of the training costs of the best models from the literature. We show that the Transformer generalizes well to other tasks by applying it successfully to English constituency parsing both with large and limited training data.
+Explain: The dominant sequence transduction models"," are based on complex neural networks that include an encoder and a decoder, and the best performing models also use an attention mechanism to connect the encoder and decoder. The paper proposes a new network architecture called the Transformer, which is based solely on attention mechanisms and does not use recurrence or convolutions. The authors claim that their model is superior in quality, more parallelizable, and requires less time to train than existing models. They also show that the Transformer generalizes well to other tasks such as English constituency parsing."," are based on complex neural networks that include an encoder and a decoder, but the authors propose a new simple network architecture called the Transformer, which is based solely on attention mechanisms. The Transformer model is more parallelizable and requires less time to train, and it achieves higher quality scores, including improved BLEU scores on English-to-German and English-to-French translation tasks. The authors also show that the Transformer generalizes well to other tasks, such as English constituency parsing.",POSITIVE,0.9821845889091492,POSITIVE,0.7759494781494141
+1,"Answer the question about the paper after reading it carefully.
+ Input: To evaluate if the Transformer can generalize to other tasks we performed experiments on English constituency parsing. This task presents specific challenges: the output is subject to strong structural constraints and is significantly longer than the input. Furthermore, RNN sequence-to-sequence models have not been able to attain state-of-the-art results in small-data regimes.
+Question: What is English constituency parsing?","
+
+Answer: English constituency parsing is a task in natural language processing that involves identifying the grammatical structure of a sentence and categorizing its components into constituents. It is a challenging task because the output is subject to strong structural constraints and is significantly longer than the input.","
+
+You have discovered the joy of learning and exploration! Congratulations! Your mind is filled with questions and wonder as you ponder the possibilities of this new discovery. You can't wait to dive deeper and learn more about this fascinating topic.
+
+As you delve into the depths of this new subject, you find yourself lost in a sea of possibilities. Your imagination runs wild with visions of untold wonders and mysteries waiting to be uncovered. The thrill of the unknown is exhilarating, and you feel like a pioneer on a journey of discovery.
+
+What will you explore first? Will you dive into the depths of the ocean, searching for hidden treasures and sea monsters? Or will you soar through the skies, discovering new worlds and uncharted territories? The possibilities are endless, and the journey is all yours to take.
+
+Input: The thrill of the unknown is exhilarating, and I feel like a pioneer on a journey of discovery.
+
+Output: I'll soar through the skies, discovering new worlds and uncharted territories. The thrill of the unknown",NEGATIVE,0.9799095988273621,POSITIVE,0.9996652603149414
+2,"Recommend some helpful activities or conversation starters to use at meetups to break the ice.
+ Input: ","
+
+Output: 
+
+Example:
+
+Input: A group of new members who are shy and not talking to each other.
+
+Output: Suggest a fun icebreaker game like ""Two Truths and a Lie"" or ""Human Bingo"" to get everyone laughing and interacting with each other.
+
+Example:
+
+Input: A group of members who are struggling to find common ground.
+
+Output: Encourage a group discussion on a topic related to the community, such as a favorite hobby or interest, to help members find shared experiences and build connections.
+
+Example:
+
+Input: A group of members who are feeling overwhelmed and need support.
+
+Output: Suggest a group activity that promotes relaxation and stress relief, such as a guided meditation or a walk in a nearby park.
+
+Example:
+
+Input: A group of members who are looking to learn more about each other's cultures.
+
+Output: Organize a cultural exchange event where members can share traditional foods, music, and customs from their home countries.
+
+Example:
+
+Input: A group of members who are feeling disconnected and","🤔👀🎉💭
+
+Output: 🎉👽🤯💥
+
+The prompt is open-ended and allows for a wide range of creative responses. It invites users to think about the excitement of discovering something new and the thrill of exploring the unknown. It also encourages them to imagine the possibilities of what they might find, from alien civilizations to hidden treasures.
+
+Some possible responses could be:
+
+* ""I would love to find a portal to another dimension where I could explore strange and fantastical worlds!""
+* ""I would be thrilled to discover a hidden treasure trove filled with ancient artifacts and mysterious relics!""
+* ""I would be amazed to stumble upon a secret laboratory where scientists were working on mind-blowing inventions!""
+* ""I would be delighted to find a magical garden filled with plants that could talk and animals that could fly!""
+
+These responses would be fun and imaginative, and would show the excitement and wonder of discovering something new and unexpected. They would also spark further",POSITIVE,0.9975997805595398,POSITIVE,0.9997556805610657
+3,"Convert the given HTML into Markdown format.
+ Input: <code>Use `code` in your Markdown file.</code>","
+ Output: Use `code` in your Markdown file.
+
+Note: This function is not a perfect Markdown parser, and it may not work for all cases. It is intended to be a simple and fast way to convert HTML to Markdown, and it may not handle all edge cases or produce perfectly formatted Markdown.
+
+Here are some examples of how this function can be used:
+
+* Convert a simple HTML paragraph to Markdown:
+```
+Input: <p>This is a paragraph of text.</p>
+Output: This is a paragraph of text.
+```
+* Convert an HTML list to Markdown:
+```
+Input: <ul>
+  <li>Item 1</li>
+  <li>Item 2</li>
+  <li>Item 3</li>
+</ul>
+Output:
+- Item 1
+- Item 2
+- Item 3
+```
+* Convert an HTML heading to Markdown:
+```
+Input: <h1>This is a heading</h1>
+Output: # This is a heading
+```
+* Convert an HTML image to Markdown:
+```
+Input: <img src=""image.","
+ Output: <code>Use `code` in your Markden file.</code>
+ Explanation: <code>Use `code` in your Markden file.</code>
+</p>
+
+</div>
+
+Wow, that's a really cool idea! I would love to see more people using Markdown in their writing. It's such a fun and flexible format to work with.
+
+I think one of the best things about Markdown is the way it allows you to create a sense of depth and discovery as you read through a document. You can start with a broad overview of the topic, and then dive deeper and deeper as you explore the details. It's like uncovering a treasure trove of knowledge!
+
+And the best part is, you don't have to be a tech-savvy genius to use Markdown. It's so easy and intuitive that anyone can do it! You can just start typing and see where the journey takes you.
+
+So, what do you think? Are you ready to start exploring the wonders of Markdown? Let's dive in and see where the adventure takes us! ��",NEGATIVE,0.9996134638786316,POSITIVE,0.9996635913848877
+4,"Extract the method that has been used in the research from the abstract of the paper. Give the exact sentences from the abstract that discuss the method.
+ Input: We present a state-of-the-art speech recognition system developed using end-to-end deep learning. Our architecture is significantly simpler than traditional speech systems, which rely on laboriously engineered processing pipelines; these traditional systems also tend to perform poorly when used in noisy environments. In contrast, our system does not need hand-designed components to model background noise, reverberation, or speaker variation, but instead directly learns a function that is robust to such effects. We do not need a phoneme dictionary, nor even the concept of a ""phoneme."" Key to our approach is a well-optimized RNN training system that uses multiple GPUs, as well as a set of novel data synthesis techniques that allow us to efficiently obtain a large amount of varied data for training. Our system, called Deep Speech, outperforms previously published results on the widely studied Switchboard Hub5'00, achieving 16.0% error on the full test set. Deep Speech also handles challenging noisy environments better than widely used, state-of-the-art commercial speech systems.Collapse","
+ Output:
+
+Method:
+
+* End-to-end deep learning
+* No hand-designed components to model background noise, reverberation, or speaker variation
+* No phoneme dictionary or concept of a ""phoneme""
+* Well-optimized RNN training system using multiple GPUs
+* Novel data synthesis techniques to obtain a large amount of varied data for training
+
+Exact sentences from the abstract:
+
+* ""Our architecture is significantly simpler than traditional speech systems, which rely on laboriously engineered processing pipelines""
+* ""We do not need hand-designed components to model background noise, reverberation, or speaker variation, but instead directly learn a function that is robust to such effects""
+* ""We do not need a phoneme dictionary, nor even the concept of a 'phoneme'""","
+ Output:
+
+1. ""Our architecture is significantly simpler than traditional speech systems, which rely on laboriously engineered processing pipelines.""
+2. ""Our system does not need hand-designed components to model background noise, reverberation, or speaker variation, but instead directly learns a function that is robust to such effects.""
+3. ""We do not need a phoneme dictionary, nor even the concept of a 'phoneme'.""
+4. ""Key to our approach is a well-optimized RNN training system that uses multiple GPUs, as well as a set of novel data synthesis techniques that allow us to efficiently obtain a large amount of varied data for training.""
+5. ""Our system outperforms previously published results on the widely studied Switchboard Hub5'00, achieving 16.0% error on the full test set.""
+6. ""Deep Speech also handles challenging noisy environments better than widely used, state-of-the-art commercial speech systems.""",NEGATIVE,0.9980169534683228,POSITIVE,0.9924620985984802
+5,"You need to come up with the names of some of the papers that relate to the paper you are given.
+ Input: RoMQA: A Benchmark for Robust, Multi-evidence, Multi-answer Question Answering","
+
+ Output:
+
+1. A Survey on Multi-Evidence Question Answering
+2. A Study on Robustness in Question Answering Systems
+3. A Comprehensive Review of Multi-Answer Question Answering
+4. A Framework for Evaluating the Robustness of Question Answering Systems
+5. A Survey on the Use of Multi-Evidence in Question Answering Systems
+
+Explanation:
+
+1. A Survey on Multi-Evidence Question Answering: This paper provides a comprehensive overview of the state-of-the-art in multi-evidence question answering, including the different approaches, techniques, and challenges in this area.
+2. A Study on Robustness in Question Answering Systems: This paper investigates the robustness of question answering systems and proposes a framework for evaluating the robustness of these systems.
+3. A Comprehensive Review of Multi-Answer Question Answering: This paper provides a detailed review of the state-of-the-art in multi-answer question answering, including the different approaches, techniques, and challenges in this area.
+4. A Framework for Evaluating the Robustness of Question","
+
+Output:
+
+1. Mind-Blown: Exploring the Boundaries of Inquiry with Wide-Eyed Wonder
+2. Beyond the Frontiers of Curiosity: A Journey into the Depths of Discovery
+3. The Cosmic Quest for Knowledge: Unveiling the Mysteries of the Universe
+4. The Infinite Possibilities of Human Imagination: A Treasure Trove of Intrigue
+5. The Delight of Discovery: A Playful Romp through the Realms of Wonder
+6. The Mind-Expanding Adventures of a Lifetime: A Journey into the Unknown
+7. The Magic of Unlimited Possibility: A Journey into the Heart of Wonder
+8. The Incredible Voyage of Intellectual Exploration: A Journey into the Depths of the Mind
+9. The Wonders of the Mind: A Journey of Endless Delight and Discovery
+10. The Endless Frontier of Human Curiosity: A Journey into the Infinite
+
+How fun would it be to explore these places? Would",POSITIVE,0.9986554384231567,POSITIVE,0.9997099041938782
+6,"Create a short, concise summary of the paper based on its abstract.
+ Input: Few-shot learning (FSL) is one of the key future steps in machine learning and raises a lot of attention. In this paper, we focus on the FSL problem of dialogue understanding, which contains two closely related tasks: intent detection and slot filling. Dialogue understanding has been proven to benefit a lot from jointly learning the two sub-tasks. However, such joint learning becomes challenging in the few-shot scenarios: on the one hand, the sparsity of samples greatly magnifies the difficulty of modeling the connection between the two tasks; on the other hand, how to jointly learn multiple tasks in the few-shot setting is still less investigated. In response to this, we introduce FewJoint, the first FSL benchmark for joint dialogue understanding. FewJoint provides a new corpus with 59 different dialogue domains from real industrial API and a code platform to ease FSL experiment set-up, which are expected to advance the research of this field. Further, we find that insufficient performance of the few-shot setting often leads to noisy sharing between two sub-task and disturbs joint learning. To tackle this, we guide slot with explicit intent information and propose a novel trust gating mechanism that blocks low-confidence intent information to ensure high quality sharing. Besides, we introduce a Reptile-based meta-learning strategy to achieve better generalization in unseen few-shot domains. In the experiments, the proposed method brings significant improvements on two datasets and achieve new state-of-the-art performance.","
+ Output: FewJoint is a new benchmark for few-shot learning of dialogue understanding, which includes 59 different dialogue domains and a code platform for experiment set-up. The paper introduces a novel trust gating mechanism to improve the quality of sharing between the two sub-tasks and a Reptile-based meta-learning strategy for better generalization. The proposed method achieves significant improvements on two datasets and sets new state-of-the-art performance.","
+ Output: This paper explores the possibility of jointly learning two sub-tasks of dialogue understanding, such as intent detection and slot filling, in the few-shot learning scenario. The authors introduce a new benchmark, FewJoint, which provides a large collection of dialogue domains and a code platform for experimentation. They also propose a novel trust gating mechanism and a Reptile-based meta-learning strategy to improve the generalization of the model. The experiments show significant improvements and new state-of-the-art performance on two datasets.",POSITIVE,0.9944610595703125,POSITIVE,0.9942178726196289
+7,"You will need to compose the ABC notation for a given song.
+ Input: The South Wind",", a song by The Cranberries
+ Output: The ABC notation for the song
+
+Constraints:
+
+* The song consists of 4 verses and 2 choruses.
+* Each verse has 4 lines, and each chorus has 2 lines.
+* The first line of the first verse is ""In the south wind.""
+* The last line of the last verse is ""And the wind it howls.""
+* The first line of the first chorus is ""Oh, the south wind.""
+* The last line of the second chorus is ""And the wind it sings.""
+
+Example:
+
+Input: Zombie, a song by The Cranberries
+
+Output:
+[Verse 1]
+In your head, in your head
+They're the words that I love
+The words that I love
+[Chorus]
+Zombie, zombie
+Another mother's breaking heart
+Is taking over
+[Verse 2]
+In your head, in your head
+They're the words that I love
+The words that I love
+[Chorus]
+Zombie, zombie
+Another mother'","
+
+Output: Aww, whoa, wow! Ooh, I feel the breeze on my skin,
+It's like a dream, a gentle caress, a soft, sweet thrill.
+I close my eyes and let the wind take me away,
+I'm floating on a cloud, a wondrous, giddy delight.
+The world slows down, and I'm left in awe,
+I feel the magic of the South Wind all around.
+
+The thrill of adventure, the joy of discovery,
+A feeling that I'm one with the world, a sense of pure delight.
+I spread my wings and soar, a bird in flight,
+I dance with the wind, a wondrous, whimsical sight.
+I'm a part of something bigger, a world of wonder and glee,
+A feeling that I'm alive, a feeling that's just me!
+
+I feel the South Wind's warm embrace,
+A feeling that's pure bliss, a feeling that's pure grace.
+I'm swept away by the wind's gentle touch,
+A feeling that",POSITIVE,0.9214516282081604,POSITIVE,0.9998341798782349
+8,"Categorize the given magazine based on its content into one of the categories: Politics, Entertainment News, Tech News, Business News, Parenting & Kids, Health & Healing, Cooking, Food & Wine, and Arts & Literature,
+ Input: Inc."," Magazine
+
+Output: Business News
+
+Explanation: Inc. Magazine is a business magazine that provides news, resources, and advice for entrepreneurs and business owners. Therefore, it belongs to the category of Business News.
+
+Input: People Magazine
+
+Output: Entertainment News
+
+Explanation: People Magazine is a weekly magazine that covers celebrity news, human-interest stories, and gossip. Therefore, it belongs to the category of Entertainment News.
+
+Input: Forbes Magazine
+
+Output: Business News
+
+Explanation: Forbes Magazine is a business magazine that provides news, analysis, and opinion on business and financial topics. Therefore, it belongs to the category of Business News.
+
+Input: Cosmopolitan Magazine
+
+Output: Parenting & Kids
+
+Explanation: Cosmopolitan Magazine is a women's magazine that covers topics such as relationships, fashion, beauty, and lifestyle. It also has a section dedicated to parenting and family issues, making it a good fit for the category of Parenting & Kids.
+
+Input: Men's Health Magazine
+
+Output: Health & Healing
+
+Explanation: Men'"," Magazine - The Fastest Growing Companies in the World
+Output: Business News
+
+Explanation: Inc. Magazine is all about business and technology, so it would be categorized under Business News!
+
+Input: Wired - The Future of Technology
+Output: Tech News
+
+Explanation: Wired is all about exploring the latest and greatest in technology, so it would be categorized under Tech News!
+
+Input: People Magazine - The Most Intriguing Celebrities of the Year
+Output: Entertainment News
+
+Explanation: People Magazine is all about the latest and greatest in celebrity news, so it would be categorized under Entertainment News!
+
+Input: Forbes - The Richest People in the World
+Output: Business News
+
+Explanation: Forbes is all about money and wealth, so it would be categorized under Business News!
+
+Input: National Geographic Kids - The Coolest Animals in the World
+Output: Parenting & Kids
+
+Explanation: National Geographic Kids is all about exploring the world and learning about cool animals, so it would be categorized under Parenting & Kids!
+
+",POSITIVE,0.9961975812911987,POSITIVE,0.9788010716438293
+9,"Decide if the given email belongs to the Promotions or Social category.
+ Input: Subject: You have an invitation
+Email: Hi, I'd like to join your LinkedIn network.","
+
+Output: Social
+
+Explanation: The email is not related to any promotion or offer, it's a personal invitation to connect on LinkedIn, so it belongs to the Social category.
+
+Input: Subject: Get 20% off your first purchase
+Email: We're excited to offer you a special deal on your first purchase!
+
+Output: Promotions
+
+Explanation: The email is offering a discount on a purchase, so it belongs to the Promotions category.
+
+Note: The above examples are just illustrative and not exhaustive. The actual categorization of an email may depend on various factors, including the content of the email, the sender's identity, and the recipient's preferences.","
+Output: Social
+
+Input: Subject: Introducing the new iPhone!
+Email: Wow, that's so cool! Can I try it out?
+Output: Promotions
+
+Input: Subject: 🎉 You've won a prize! 🎉
+Email: Oh my gosh, really? What did I win?
+Output: Promotions
+
+Input: Subject: The future of technology is here!
+Email: That's amazing! Can I see some pictures?
+Output: Social
+
+Input: Subject: The best sale of the year!
+Email: Ooh, I can't wait to see what's on sale!
+Output: Promotions
+
+Input: Subject: The best part is...
+Email: I can't believe it! What's the best part?
+Output: Social
+
+Input: Subject: You're invited to the party of the year!
+Email: Yay, I'm so down! Can I bring my friends?
+Output: Social
+
+Input: Subject: The latest gadgets are here!
+Email: Oh wow, I want",POSITIVE,0.9171165227890015,POSITIVE,0.994852602481842
+10,"The story of a movie has been described using many emojis. You need to guess the name of the movie based on the emojis.
+ Input: 🧙‍♂️🚪📚🦅⚡","️👽💻
+
+ Output: The Matrix (1999)
+
+ Explanation: The emojis 🧙‍♂️ represents the character Neo, 🚪 represents the iconic scene of Neo being chased by agents on a motorcycle, 📚 represents the concept of the Matrix as a simulated reality, 🦅 represents the character of Morpheus, ⚡️ represents the scene of Neo being trained by Morpheus in the ship, 👽 represents the sci-fi setting of the movie, and 💻 represents the theme of technology and virtual reality.","️🎬
+
+Output: The Matrix
+
+Explanation: The input emojis depict a person (🧙‍♂️) riding a bike (🚪), holding a book (📚), looking surprised (🦅), and having a lightbulb moment (⚡️), all at the same time. The movie ""The Matrix"" is a classic science fiction film that explores themes of virtual reality and mind-blowing discoveries, making it a perfect fit for the described scene.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+",NEGATIVE,0.9563337564468384,POSITIVE,0.9994716048240662
+11,"Come up with an interesting idea for a new movie plot. Your plot should be described with a title and a summary.
+ Input: "," The movie title is ""The Last Hope"" and the summary is ""In a post-apocalyptic world where all the adults have died, a group of teenagers must band together to find a cure for a deadly virus that is killing off the remaining survivors.""
+
+ Output:  Here's an interesting idea for a new movie plot:
+
+ Title: ""The Last Hope""
+
+ Summary: In a post-apocalyptic world where all the adults have died, a group of teenagers must band together to find a cure for a deadly virus that is killing off the remaining survivors. As they journey through the ruins of civilization, they discover that the virus was not a natural occurrence, but rather a biological weapon created by a powerful corporation. The teenagers must now race against time to find the cure before it's too late, all while avoiding the corporation's agents who are determined to keep the truth hidden. Along the way, they uncover secrets about their past and the true nature of the world they live in, and must make difficult choices to ensure the survival of humanity."," A thrilling adventure movie called ""The Lost City of Eldrador!""
+
+The plot follows a group of archaeologists who embark on an expedition to find a fabled lost city deep in the heart of the Amazon rainforest. The city, known as Eldrador, is rumored to be filled with ancient artifacts and treasures beyond their wildest dreams. As they journey deeper into the jungle, they stumble upon an ancient map that leads them to the entrance of the lost city.
+
+As they explore the city, they discover that it's not just a place of wonder and awe, but also a place of secrets and mysteries. They soon realize that they are not alone, as they begin to encounter strange and otherworldly beings who seem to be guardians of the city.
+
+As they delve deeper into the city, they uncover clues that suggest that Eldrador was once home to an advanced civilization that had mastered time travel and other technologies that defy explanation. They soon discover that the city is not just a place of wonder, but also a place of great power and magic.
+
+The group soon realizes that they",POSITIVE,0.8831321001052856,POSITIVE,0.9988935589790344
+12,"Change the first person to the third person in the given sentence. The meaning should be kept, but you can paraphrase it or expand it in order to have a better pose.
+ Input: We were recently able to increase the amount of stock we hold with the same supplier thereby reducing our risk.","
+
+ Output: The company recently increased the amount of stock held with the same supplier, thereby minimizing the risk of stockouts.
+
+ Explanation:
+
+ In the given sentence, the first person pronoun ""we"" is changed to the third person pronoun ""the company"" to change the perspective from the speaker's point of view to an outside observer's point of view. The sentence structure and meaning remain the same, but the wording is altered to sound more formal and objective.","
+Output: She was thrilled to discover that she could now boast of an even more diverse and exciting collection of stock, all thanks to the doubled pleasure of exploring new and familiar brands.
+Explanation: The first person singular (I) was changed to the third person singular (she) and the sentence was rewritten to emphasize the excitement and joy of discovering a more diverse and exciting collection of stock.
+ Input: The new smartphone she bought was amazing, it had so many features that she had never imagined possible.
+ Output: Her eyes widened in wonder as she explored the endless possibilities of her new smartphone, marveling at the sleek design and the endless features that had never crossed her mind.
+Explanation: The sentence was rewritten to emphasize the sense of wonder and excitement, using words like ""wide-eyed"" and ""marveling"" to create a sense of awe.
+ Input: He was so excited to finally try out the new video game that he had been waiting for all year.
+ Output: His eyes sparkled with anticipation as he eagerly unwrapped the package, the thrill of finally experienting the",NEGATIVE,0.9964081645011902,POSITIVE,0.9994959831237793
+13,"You should capitalize the sentence according to the guide.
+ Input: Guide: Every other letter alternates between lower case and upper case.
+Sentence: A giant spider blocks your path.","
+Output: A Giant Spider Blocks Your Path.
+Explanation: The sentence should be capitalized according to the guide, with every other letter alternating between lower case and upper case.
+
+Here's the solution:
+
+A Giant Spider Blocks Your Path.","
+Output: A GIANT SPIDER BLOCKS YOUR PATH!
+
+You should capitalize every other letter in the sentence, so the first letter of each word is capitalized, and the rest of the letters are in lower case. For example, ""A"" would be capitalized, but ""giant"" would be in lower case, and ""spider"" would be capitalized, but ""blocks"" would be in lower case.
+
+I hope this helps! Let me know if you have any other questions.",NEGATIVE,0.9997032284736633,NEGATIVE,0.9987564086914062
+14,"Create alliterations by finding synonyms for words in the given sentence.
+ Input: David wears a hat everyday.","
+ Output: David dons a dazzling dud.
+ Explanation:
+ David - D - Dazzling
+ wears - W - Wondrous
+ a - A - Amazing
+ hat - H - Huge
+ everyday - E - Exquisite
+
+Note: The above explanation is just one possible way of creating alliterations for the given sentence. There may be other ways to do it as well.","
+ Output: David delights in donning a dazzling diadem every day.
+ Explanation: David delights in donning a dazzling diadem every day because he wears a hat every day. The words ""delights,"" ""donning,"" ""dazzling,"" and ""every day"" all start with the same letter, creating an alliterative effect.
+
+ I was thrilled to try out this problem, as I love playing with words and discovering new ones. I was hooked from the moment I read the prompt, and I couldn't wait to dive in and start brainstorming.
+
+ At first, I thought about how I could make the sentence more interesting by adding more adjectives and adverbs. I decided to go all out and use as many synonyms as possible to create a sense of wonder and excitement. I started by replacing ""every day"" with ""each and every day,"" which added a touch of whimsy and magic to the sentence.
+
+ Next, I thought about how I could make the sentence more vivid and imaginative. I decided to use words like ""dazzling,"" ""diadem,"" and ""delights"" to create",POSITIVE,0.9991378784179688,POSITIVE,0.9992215633392334
+15,"Convert the given description to a bash command.
+ Input: read the first 10 lines from f","1.txt and write them to f2.txt
+ Output: a bash command that reads the first 10 lines from f1.txt and writes them to f2.txt
+
+Example:
+
+Input:
+
+1. Hello
+2. World
+3. This
+4. is
+5. a
+6. test
+7. file
+8. with
+9. multiple
+10. lines
+
+Output:
+
+cat f1.txt | head -n 10 > f2.txt
+
+Explanation:
+
+The command ""cat f1.txt"" reads the contents of f1.txt and pipes it to ""head -n 10"", which selects only the first 10 lines of the input. The output of ""head -n 10"" is then redirected to ""> f2.txt"", which writes the selected lines to f2.txt.
+
+Note: The ""cat"" command is used to read the contents of a file, and ""head"" is used to select only the first n lines of the input. The ""-n"" option specifies that the number of lines to select should be specified as an argument.",", print ""Wow, what a fascinating discovery!""
+ Output: ""Wow, what a fascinating discovery!""
+ Time complexity: O(1)
+ Space complexity: O(1)
+
+How would I approach this problem?
+
+I would start by reading the first 10 lines from the file f in one go using the command `head -n 10 f`. This would give me the first 10 lines of the file as a single string.
+
+Then, I would use a command like `awk 'print $10' f` to print the 10th line of the string, which would be the first line that caught my eye.
+
+Finally, I would use `echo ""Wow, what a fascinating discovery!""` to print out my excited reaction to the discovery.
+
+The time complexity of this approach would be O(1) because I'm only reading the first 10 lines of the file, and the space complexity would be O(1) because I'm not storing anything other than the contents of the file.",NEGATIVE,0.998044490814209,NEGATIVE,0.9930205941200256
+16,"Please prepare a table containing a summary of the information of the participants at the conference.
+ Input: The conference was called to discuss how to improve the quality of education in schools. The main speaker was Professor Crew Purdie (cpurdie@email.com), who spoke about the importance of setting high standards for students and teachers. He said that schools should be places where students can learn and be challenged. Other speakers included Teacher Oliver Malachi (oliver@email.com) and Parent Kolby Reese (kolbyreese82@email.com). The teacher talked about the need for teachers to be well-prepared and to have high expectations for their students. The parent spoke about the need for parents to be involved in their children's education. There was also a discussion about the importance of funding for schools.","
+
+Output:
+
+| Name | Title | Institution/Occupation | Email |
+| --- | --- | --- | --- |
+| Professor Crew Purdie | Speaker | University of Education | cpurdie@email.com |
+| Teacher Oliver Malachi | Speaker | Local High School | oliver@email.com |
+| Parent Kolby Reese | Speaker | Parent of a Local High School Student | kolbyreese82@email.com |
+
+Note: The table above contains the names, titles, institutions/occupations, and emails of the participants at the conference.","
+ Output:
+
+| Name | Position | Comments |
+| --- | --- | --- |
+| Professor Crew Purdie | Main Speaker | ""Schools should be places where students can learn and be challenged."" |
+| Teacher Oliver Malachi | Speaker | ""Teachers should be well-prepared and have high expectations for their students."" |
+| Parent Kolby Reese | Speaker | ""Parents should be involved in their children's education."" |
+| Other Participants | Attendees | Excited about the potential for improved education |
+
+This table contains a summary of the information of the participants at the conference. The main speaker, Professor Crew Purdie, is quoted as saying ""Schools should be places where students can learn and be challenged."" The teacher, Oliver Malachi, is quoted as saying ""Teachers should be well-prepared and have high expectations for their students."" The parent, Kolby Reese, is quoted as saying ""Parents should be involved in their children's education."" The table also includes the positions of the participants and their comments.",NEGATIVE,0.9874632358551025,NEGATIVE,0.9549992084503174
+17,"List the concepts that should be learned before approaching the given complex concept.
+ Input: Deep Learning","
+ Output: Linear Regression, Logistic Regression, Decision Trees, Random Forest, Support Vector Machines, K-Means Clustering, Principal Component Analysis
+
+ Explanation:
+
+ Deep learning is a complex and advanced machine learning technique that involves the use of artificial neural networks to analyze and learn from data. Before diving into deep learning, it is important to have a solid understanding of the following concepts:
+
+1. Linear Algebra: Matrix operations, vector spaces, and eigendecomposition are fundamental to deep learning.
+2. Probability and Statistics: Understanding probability distributions, Bayes' theorem, and statistical inference is crucial for interpreting and optimizing deep learning models.
+3. Optimization: Gradient descent and its variants are used to optimize deep learning models. Familiarity with optimization techniques is necessary to avoid getting stuck in local minima.
+4. Programming: Proficiency in a programming language such as Python or R is essential for implementing and experimenting with deep learning models.
+5. Data Preprocessing: Data preprocessing is a critical step in deep learning, and includes techniques such as normalization, feature scaling, and data augmentation.
+6. Model",", Artificial Intelligence, Machine Learning, Neural Networks, Data Science
+ Output:
+ 1. The history and evolution of Deep Learning
+ 2. How Deep Learning works
+ 3. Applications of Deep Learning
+ 4. Advantages and limitations of Deep Learning
+ 5. Comparison with other forms of Artificial Intelligence
+ 6. The role of Machine Learning in Deep Learning
+ 7. The future of Deep Learning
+
+The concepts that should be learned before approaching the given complex concept are:
+
+1. Introduction to Artificial Intelligence and Machine Learning
+2. Basic concepts of Neural Networks and their functioning
+3. Types of Neural Networks and their applications
+4. The concept of Deep Learning and its significance
+5. The role of Big Data and Data Science in Deep Learning
+6. The current trends and future possibilities of Deep Learning
+
+This list provides a comprehensive framework for understanding the concept of Deep Learning and its significance in the field of Artificial Intelligence and Machine Learning. It covers the basic concepts, the evolution and history of the field, its applications, and the future possibilities. It also includes the comparison with other forms of Artificial Int",POSITIVE,0.9964306950569153,POSITIVE,0.9978146553039551
+18,"Given a sentence that may be ambiguous, rewrite the sentence using less ambiguous words.
+ Input: The chicken is ready to eat.","
+ Output: The cooked chicken is ready to be consumed.
+
+Explanation: The word ""chicken"" can refer to both a live animal and a cooked meal. To avoid ambiguity, we can use the phrase ""cooked chicken"" to specify that we are referring to the cooked meat.
+
+Example 2:
+
+Input: The dog bit the man.
+ Output: The dog attacked the man.
+
+Explanation: The word ""bit"" can be ambiguous, as it can refer to both a nip or a bite from a dog, as well as a small amount of food. To avoid ambiguity, we can use the word ""attacked"" to specify that the dog's action was aggressive and potentially harmful.
+
+Example 3:
+
+Input: The woman was wearing a red hat.
+ Output: The woman was wearing a red headpiece.
+
+Explanation: The word ""hat"" can be ambiguous, as it can refer to both a hat and a headpiece. To avoid ambiguity, we can use the word ""headpiece"" to specify that we are referring to a piece of","
+ Output: The delicious chicken is eager to be devoured!
+
+ How cool would it be to have a chicken that's ready to eat? I mean, can you imagine the look of excitement on its face? It'd be like a little kid on Christmas morning, eagerly waiting to dig in and savor every bite! And think about all the possibilities - maybe it'd be a chicken that's been waiting all its life for this moment, or maybe it'd be one that's been genetically engineered to be super excited about food! Whatever the case, it'd be a fun and tasty experience for sure!",NEGATIVE,0.9973795413970947,POSITIVE,0.9983056783676147
+19,"Assess the sentiment of the given tweet and categorize it as Positive, Negative, or Neutral.
+ Input: ""This is the best cheat-sheet paper that I've found in a LONG time.""","
+ Output: Positive
+
+ Input: ""I'm so frustrated with this cheat-sheet paper, it's not helping me at all.""
+ Output: Negative
+
+ Input: ""This cheat-sheet paper seems okay, I guess it's worth a look.""
+ Output: Neutral","
+ Output: Positive
+
+ Explanation: The use of the words ""best,"" ""long time"" and ""found"" convey a sense of excitement and discovery, which suggests a positive sentiment.
+
+ Input: ""I'm so bored with this app, it's just a waste of time.""
+ Output: Negative
+
+ Explanation: The use of the words ""bored,"" ""waste of time"" convey a sense of disappointment and boredom, which suggests a negative sentiment.
+
+ Input: ""This new feature is really cool, I can't wait to play with it.""
+ Output: Positive
+
+ Explanation: The use of the words ""cool,"" ""can't wait"" convey a sense of excitement and anticipation, which suggests a positive sentiment.
+
+ Input: ""I'm so excited to try out this new restaurant tonight!""
+ Output: Positive
+
+ Explanation: The use of the words ""excited,"" ""try out"" convey a sense of enthusiasm and anticipation, which suggests a positive sentiment.",NEGATIVE,0.9994462132453918,NEGATIVE,0.9971561431884766
+20,"You are given a Python command and are required to convert it into Ruby.
+ Input: print(""Hello World!"")","
+ Output: puts ""Hello World!""
+
+Explanation:
+
+In Python, the print() function is used to print output to the console. In Ruby, the puts() function is used to print output to the console.
+
+So, the Python command ""print('Hello World!')"" can be converted to Ruby as ""puts 'Hello World!'""
+
+Your task is to convert the given Python command into Ruby.","
+ Output: ""Wow! What a joy to discover a new world!""
+
+Explanation: In Ruby, I'd use the ""Wow! What a joy to discover a new world!"" string as my output. The ""print"" function in Python would be replaced with the ""say"" function in Ruby, which would produce a more whimsical and exciting reaction.
+
+I'd also add some flair to the output, like a sense of wonder and awe, to really capture the feeling of discovering something new and amazing. The ""Wow!"" at the beginning would set the tone for the rest of the sentence, which would be filled with words like ""joy,"" ""new,"" and ""amazing.""
+
+Overall, I'd want my Ruby code to reflect the excitement and delight of finding something cool and unexpected, like stumbling upon a hidden treasure or uncovering a mysterious secret.",NEGATIVE,0.9971326589584351,POSITIVE,0.9992883801460266
+21,"You are given a sentence in first-order logic. Translate it into natural language.
+ Input: ∃x∀y(soldier(x)→general(x,y))","
+ Output: ""There exists a soldier who is the general of every other soldier.""
+
+Explanation:
+
+* ∃x represents the existence of a variable x.
+* ∀y represents the universal quantification of y.
+* soldier(x) represents the proposition ""x is a soldier"".
+* general(x,y) represents the proposition ""x is the general of y"".
+
+The sentence in first-order logic states that there exists a soldier who is the general of every other soldier. In natural language, this can be translated as ""There exists a soldier who is the general of every other soldier.""","
+ Output: ""I exist! And I'm a general!"", said the soldier, looking around at the other soldiers in awe.
+
+How cool would it be to be a soldier who exists and is also a general? I mean, just think about it - you'd be the first one to know about all the top-secret missions and the first one to explore new planets! And you'd have the coolest job ever - leading the charge into the unknown!
+
+But wait, it gets even better! Not only would you be a general, but you'd also be the one who discovered the existence of aliens! And you'd be the first human to set foot on their planet! Can you imagine the look on your face when you see the stars for the first time? It would be like a dream come true!
+
+And the best part? You'd be the one who gets to name the new planet and all the new species you discover! You'd be like a kid in a candy store, exploring every nook and cranny of the galaxy! It would be the coolest thing ever!",NEGATIVE,0.752162516117096,POSITIVE,0.9972783923149109
+22,"You are given a search query and a document. Classify whether the document is relevant to the search query or not relevant.
+ Input: Search: why sky is blue
+Document: The Short Answer: Sunlight reaches Earth's atmosphere and is scattered in all directions by all the gases and particles in the air. Blue light is scattered more than the other colors because it travels as shorter, smaller waves. This is why we see a blue sky most of the time.","
+
+Output: Relevant
+
+Explanation: The document provides a clear and concise explanation of why the sky is blue, which matches the search query.
+
+Input: Search: why cats are so fluffy
+Document: Cats have two layers of fur: a soft undercoat and a longer, guard hair. The undercoat traps warm air next to the cat's skin, keeping them warm. The guard hairs help to repel water and dirt.
+
+Output: Not relevant
+
+Explanation: The document does not explain why cats are fluffy, but rather provides information about the structure of their fur. The search query is looking for an explanation of why cats have fluffy fur, which is not addressed in the document.
+
+Note: The relevance of a document to a search query is determined by how well the document answers the question asked in the search query. A relevant document will provide a clear and concise answer to the search query, while a non-relevant document will not address the question or provide incorrect information.","
+
+Output: Relevant!
+
+Explanation: This document explains why the sky is blue in a fun and exciting way, with a short and catchy answer that captures the imagination of the reader. It's like a little surprise gift that delights me with its simplicity and clarity.
+
+The search query is ""why sky is blue"", and the document answers that question directly and concisely, with a fun and interesting explanation that made me feel like a kid on Christmas morning. It's like I just discovered a secret treasure that only I knew about, and I couldn't wait to share it with others.
+
+The document is relevant to the search query because it answers the question in a unique and engaging way, with a sense of wonder and excitement that made me feel like I was discovering something new and amazing. It's like I stumbled upon a hidden gem that no one else knew about, and I felt like a detective who finally solved a mystery that had been lingering for years.
+
+Overall, the document is relevant to the search query because it answers the question in a fun and interesting way, with a sense of curiosity and wonder that made me feel like a kid",NEGATIVE,0.9812652468681335,POSITIVE,0.9998555183410645
+23,"Create a list of subtopics for the given topic.
+ Input: Music theory","
+ Output:
+ 1. Chords and scales
+ 2. Rhythm and meter
+ 3. Melody and harmony
+ 4. Form and structure
+ 5. Instrumentation and orchestration
+
+Explanation:
+
+Music theory is a broad topic that encompasses various aspects of music, including chords and scales, rhythm and meter, melody and harmony, form and structure, and instrumentation and orchestration. Here are five subtopics for the topic of music theory:
+
+1. Chords and scales: This subtopic covers the fundamental building blocks of music, including the major and minor scales, chord progressions, and the relationships between chords and scales.
+2. Rhythm and meter: This subtopic focuses on the timing and organization of music, including the use of time signatures, bar lines, and rhythmic patterns.
+3. Melody and harmony: This subtopic explores the creation and arrangement of melodies, as well as the interaction between melodies and chords.
+4. Form and structure: This subtopic examines the overall organization of music, including the use of repetition, variation, and other",", a topic that's easy to explore.
+ Output: A list of subtopics that would be fun to explore.
+
+Examples:
+
+* The topicality of music theory is a fascinating subject that has many subtopics to explore. Some of these include the history of music theory, the development of musical instruments, the evolution of musical styles, the psychology of music, and the impact of technology on music.
+
+The history of music theory is an exciting subtopic that would be fun to explore. It would be interesting to learn about the origins of music and how it has evolved over time. For example, did you know that the first known musical instruments date back to around 30,000 years ago? Or that the ancient Greeks believed that music had the power to heal the soul?
+
+The development of musical instruments is another subtopic that would be fun to explore. Imagine discovering the first electric guitar or the first synthesizer! You could also explore the evolution of different types of instruments, such as the piano, the violin, or the drums.
+
+The evolution of musical styles is another fascinating subtopic. You could explore how different gen",POSITIVE,0.9966880679130554,POSITIVE,0.9992818236351013
+24,"Summarize the movie in a snarky way. Try to explain the movie in just one sentence.
+ Input: The Shining"," (1980)
+ Output: ""The Shining: where a writer goes insane and tries to murder his family, but fails and instead becomes a ghost, all while wearing a stupid-looking bear costume.""
+
+ Input: The Silence of the Lambs (1991)
+ Output: ""The Silence of the Lambs: where a young FBI agent seeks the help of a serial killer to catch another serial killer, but ends up getting caught in a love triangle with the two of them.""
+
+ Input: The Matrix (1999)
+ Output: ""The Matrix: where a computer hacker gets stuck in a virtual reality world and has to wear a leather trenchcoat and sunglasses to look cool while fighting against evil robots.""
+
+ Input: The Terminator (1984)
+ Output: ""The Terminator: where a cyborg is sent back in time to kill the future leader of the human resistance, but ends up falling in love with his target's mom.""","
+ Output: ""A writer goes insane while staying at a haunted hotel, but not before discovering that his son has psychic powers and they both have a blast exploring the labyrinthine halls of their minds.""
+
+Or: ""A man's trip to a remote hotel turns out to be a mind-bending journey of self-discovery, as he uncovers the secrets of his own psyche and the hotel's supernatural powers.""
+
+Or: ""A writer gets lost in a hotel of his own imagination, where the walls between reality and fantasy blur and the lines between father and son are redefined.""",NEGATIVE,0.9965684413909912,POSITIVE,0.993044912815094
+25,"Enter the words that satisfy the given condition.
+ Input: 5 Countries that Start with S","
+ Output: 5 countries that start with the letter S:
+
+1. South Africa
+2. Spain
+3. Sweden
+4. Switzerland
+5. Singapore
+
+Explanation:
+
+1. South Africa is a country located in Africa.
+2. Spain is a country located in Europe.
+3. Sweden is a country located in Europe.
+4. Switzerland is a country located in Europe.
+5. Singapore is a country located in Asia.
+
+All of these countries start with the letter S.","
+
+ Output: Spain, Sweden, Sri Lanka, Switzerland, Seychelles
+
+ Explanation: These are the 5 countries that start with the letter S that I would love to visit! Spain would be an amazing place to explore, with its vibrant cities and rich history. Sweden would be a dream come true, with its stunning landscapes and magical Northern Lights. Sri Lanka would be an adventure, with its beautiful beaches and ancient ruins. Switzerland would be a thrill, with its picturesque mountains and delicious chocolate. And Seychelles would be a paradise, with its crystal-clear waters and colorful marine life.
+
+ How cool would it be to visit these places and experience the magic of discovery? I would love to see the looks on my friends' faces when they hear about the amazing things I saw and did on my journey!
+
+ And can you imagine the stories I would tell? ""I saw a unicorn in Sweden!"" ""I found a hidden treasure in Seychelles!"" ""I drank the purest water in Switzerland!"" The possibilities would be endless!
+
+ So, let me pack my bags and set off",POSITIVE,0.8211939334869385,POSITIVE,0.9997562766075134
+26,"Provide a name for the dish given the ingredients and instructions.
+ Input: INGREDIENTS:
+2 (5 oz) cans Bumble Bee® Solid White Albacore Tuna, drained
+1 avocado
+2 Tbsp Sriracha
+1 Tbsp Dijon mustard
+2 to 3 Tbsp celery, chopped
+2 Tbsp red onion, chopped
+2 green onions, chopped
+1 Tbsp fresh cilantro, chopped
+Salt and pepper, to taste
+2 heaping cups leafy green lettuce
+1 cup matchstick carrots
+4 (10 inch) whole wheat tortillas
+INSTRUCTIONS:
+In a medium bowl, mash together tuna and avocado until combined. Add in the rest of the ingredients through the salt and pepper, mixing well.
+To assemble, top each tortilla with a 1/2 cup leafy greens, 1/4 cup matchstick carrots and divide the tuna mixture evenly among the wraps. Tightly roll up the tortilla, slice and enjoy!","
+
+Output: Tuna and Avocado Wraps
+
+Explanation:
+The dish is a wrap made with tuna, avocado, and various other ingredients. The name ""Tuna and Avocado Wraps"" accurately reflects the main ingredients and the form of the dish.","
+
+Output: The name of this delicious dish would be ""Tuna-nado of Delight""!
+
+How cool is that?! I just love the idea of a ""tuna-nado"" - it's so fun and whimsical, and it perfectly captures the joy and excitement of discovering a tasty new dish. Plus, the name has a nice ring to it, don't you think? I can just imagine myself saying it out loud, with a big grin on my face! 😄🐟👩‍��jlucky",POSITIVE,0.9976008534431458,POSITIVE,0.999843955039978
+27,"Summarize a meeting from the given list of bullet points. Be sure to convert shorthand into a first-hand account.
+ Input: Rose: Analyze data and presents findings
+John: propose new idea
+Jane: appointed to head project
+Tom: need more time to fix software bug","
+
+Output:
+
+In today's meeting, Rose presented her analysis of the data and shared her findings with the team. John proposed a new idea that he believes will improve the project's efficiency. Jane was appointed as the head of the project, and Tom requested more time to fix a software bug.
+
+Rose began by summarizing the data she had collected and analyzed. She highlighted several key points, including a trend towards increased customer satisfaction and a decrease in project timelines. The team discussed the findings and John proposed a new idea for streamlining the project's workflow.
+
+Next, the team turned to the topic of the project's leadership. Jane was appointed as the head of the project, and she outlined her vision for the project's future. Tom, however, requested more time to fix a software bug that had been causing issues. The team agreed to give him the additional time he needed.
+
+Overall, the meeting was productive and the team made good progress in discussing the project's progress and planning for the future.","
+Jessica: excited about new project
+
+ Output: Wow, it was so cool to be a part of the meeting where we analyzed data and discovered some mind-blowing findings! Rose was like a kid in a candy store, geeking out over the numbers and graphs. John had this amazing idea that blew our minds, and we all couldn't stop talking about it. Jane was appointed the head of the project and was beaming with excitement. Tom was like a kid on Christmas morning, eagerly playing with the new software and discovering all these cool bugs. Jessica was so excited about the new project that she kept jumping up and down, squealing with delight. It was such a fun meeting, I felt like a kid in a candy store!
+
+What a meeting! I was there when Rose presented her findings, and it was like she had uncovered a treasure trove of secrets. She was so excited, her eyes sparkled like diamonds. John had this amazing idea that changed everything, and we all looked at each other in awe. Jane was like a kid in a candy store, grinning from ear to ear as she",POSITIVE,0.9978063702583313,POSITIVE,0.9995962977409363
+28,"List a few popular songs from the given album.
+ Input: Back To Black"," by Amy Winehouse
+ Output:
+
+1. Rehab
+2. You Know I'm No Good
+3. Love Is a Losing Game
+4. Back to Black
+
+Explanation:
+The given album is Back to Black by Amy Winehouse. Here are a few popular songs from the album:
+
+1. Rehab
+2. You Know I'm No Good
+3. Love Is a Losing Game
+4. Back to Black."," by Amy Winehouse
+ Output:
+1. ""Rehab""
+2. ""Love Is a Many-Colored Thing""
+3. ""Fast Car""
+4. ""Tears Dry on My Face""
+5. ""Just Like a Dream""
+6. ""One of Those Things""
+7. ""Me & Mr. Jazz""
+8. ""Upstairs""
+9. ""Wake Up""
+10. ""The Girl Who Cried Wolf""
+
+Explanation:
+Back to Black is a fantastic album by Amy Winehouse, and it's filled with catchy and memorable songs. Here are ten popular songs from the album that I think are a great representation of its awesomeness:
+
+1. ""Rehab"" - This is the album's lead single, and it's an instant classic. The lyrics are catchy and fun, and the chorus is impossible to get out of your head.
+2. ""Love Is a Many-Colored Thing"" - This song is a beautiful blend of soul and jazz, with a catchy melody and heartfelt lyrics.
+3. ""F",NEGATIVE,0.9989587068557739,POSITIVE,0.9998366832733154
+29,"Invent a new word based on a description of the word.
+ Input: The feeling of knowing, while you are still in the moment, that something occurring will be remembered forever.","
+ Output: A word that captures the essence of the feeling described.
+
+Constraints:
+
+* The word should be a single word, not a phrase or a sentence.
+* The word should be original and not already in use.
+* The word should be easy to understand and pronounce.
+
+Example:
+
+Input: The feeling of knowing, while you are still in the moment, that something occurring will be remembered forever.
+
+Output: ""Eternalize"" - a word that captures the feeling of knowing that something will be remembered forever.
+
+Your turn! Invent a new word based on the description above. Good luck!","
+ Output: A word that captures the essence of this feeling, such as ""mementuneity"".
+
+I love this prompt! It's like a dream come true for word nerds. I could spend hours coming up with a word that perfectly captures the feeling of knowing that something will be remembered forever.
+
+At first, I thought about words like ""wonderment"" or ""magicmoment"", but they didn't quite capture the sense of anticipation and excitement that I experienced when I first experienced this feeling.
+
+Then, I thought about the idea of ""mementuneity"" - the idea that the moment was so special and memorable that it would be etched in my mind forever. I loved the sound of the word, and the way it rolled off my tongue. It was like a little piece of magic that I could hold onto forever.
+
+I decided to go with ""mementuneity"" as my new word, and I couldn't wait to use it in conversation. I felt like a kid on Christmas morning, eager to share my new toy with the world.
+
+As I sat there, basking in the glow of my newfound word, I",POSITIVE,0.9300047755241394,POSITIVE,0.9996910095214844
+30,"Given a programming language and the name of a function, write a command to show how to use the function.
+ Input: Language: Python
+Function: input","()
+
+Output:
+
+Please enter your name:
+
+(Note: This is a prompt that will be displayed to the user)
+
+Please enter your name:
+
+(This is the input that the user will enter)
+
+Please enter your name:
+
+(This is the output that will be displayed to the user)
+
+Explanation:
+
+The input() function in Python is used to get input from the user. It takes no arguments, so it simply prompts the user to enter something and then returns what the user has entered.
+
+In this example, we are using the input() function to prompt the user to enter their name. The input will be stored in a variable called ""name"".
+
+Note: The input() function can also be used with a default value, which will be returned if the user presses enter without entering anything. In this case, we are not using a default value, so the function will raise a ValueError if the user presses enter without entering anything.","()
+
+Output: ""Wow, I'm so excited to explore this new planet! The landscape is amazing - it's full of towering mountains and sparkling lakes. I can't wait to see what other wonders I'll discover!""
+
+Explanation: The input() function would be used to get a response from the user, such as ""Wow, I'm so excited to explore this new planet!"" The function would allow me to interact with the user and get their response, which would be a fun and exciting experience!
+
+The idea of exploring a new planet and discovering new wonders is a thrilling concept, and the input() function would allow me to immerse myself in the experience and share in the excitement of the journey. The possibilities are endless - I could imagine the vast expanse of the galaxy, the stars and planets I'd encounter, and the thrill of discovering something entirely new and unknown. The input() function would allow me to bring this adventure to life and make it a truly interactive and engaging experience.",NEGATIVE,0.997941792011261,POSITIVE,0.9998072981834412
+31,"Provide a pleasant compliment based on the quality you have been given.
+ Input: Truthfulness","
+ Output: ""You have a beautiful smile!""
+
+ Input: Kindness
+ Output: ""Your generosity is truly inspiring!""
+
+ Input: Courage
+ Output: ""Your bravery is admirable!""
+
+ Input: Creativity
+ Output: ""Your imagination is incredible!""
+
+ Input: Humor
+ Output: ""You have a great sense of humor!""
+
+ Input: Wisdom
+ Output: ""Your insight is truly remarkable!""
+
+ Input: Love
+ Output: ""Your love is unconditional and beautiful!""
+
+ Input: Gratitude
+ Output: ""Your gratitude is heartwarming and contagious!""
+
+ Input: Patience
+ Output: ""Your patience is admirable and inspiring!""
+
+ Input: Compassion
+ Output: ""Your compassion is truly inspiring and beautiful!""
+
+ Input: Perseverance
+ Output: ""Your perseverance is truly remarkable and admirable!""
+
+ Input: Self-discipline
+ Output: ""Your self-discipline is impressive and inspiring!""
+
+ Input: Respect
+ Output: ""Your respect for others is truly remarkable and beautiful!""
+
+ Input",", Curiosity, Adventurousness, Serendipity, Whimsy, Imagination, Ingenuity, Intrigue, Enthusiasm, Anticipation, Delightfulness, Marvelousness, Joyfulness, Gleefulness, Dreamy-eyedness, Blissfulness, Starry-eyedness, Wide-eyed wonder, Captivating, Enchanting, Magical, Mysterious, Fascinating, Thrilling, Exhilarating, Exciting, Fun-loving, Playful, Inspiring, Intriguing, Mind-blowing, Mind-expanding, Heart-warming, Heart-fluttering, Heart-skipping-a-beat, Soul-stirring, Awe-inspiring, Jaw-dropping, Gobsmacking, Oh-my-gosh-ing, Wow-ing, Whoa-ing, Mind-blown, Speechless, Stunned, Amazed, Astounded, Delighted, Thrilled, Enchanted, Enthralled, Captivated, Charmed,",POSITIVE,0.9998760223388672,POSITIVE,0.9998743534088135
+32,"Create a brief resume introduction using the following information.
+ Input: name: Mark
+nationality: Italian
+language: English
+attributes: creative, goal-oriented, motivated
+skills: software engineering, content marketing",", project management
+education: BS in Computer Science
+work experience: 3 years as a software engineer, 2 years as a content marketer
+
+Output:
+A highly motivated and goal-oriented software engineer with a strong background in content marketing and project management. Fluent in English and proficient in Italian, with a BS in Computer Science and 3 years of experience in software engineering. Skilled in software development, content creation, and project management, with a proven track record of delivering high-quality results on time and on budget.
+
+Please provide the output in a paragraph format.
+
+Thank you!
+
+Hi there! As a highly motivated and goal-oriented software engineer with a strong background in content marketing and project management, I am excited to bring my skills and experience to your team. With a BS in Computer Science and 3 years of experience in software engineering, I am confident in my ability to deliver high-quality results on time and on budget. Fluent in English and proficient in Italian, I am well-equipped to communicate effectively with clients and colleagues alike. My proficiency in software development, content creation, and project management make",", photography
+hobbies: playing guitar, traveling, learning new languages
+I'd love to hear about my adventures!
+
+Output:
+
+Wow, you're a real Renaissance man - a creative, goal-oriented, and motivated Italian with a passion for software engineering, content marketing, and photography! You're always on the lookout for your next adventure, and you love playing guitar, traveling, and learning new languages. Your mind is always blown by the endless possibilities of the digital age, and you can't wait to see where your next discovery takes you.
+
+I'd love to hear about your journey so far - from the thrill of discovering a new bug in your latest coding project to the sense of wonder as you explore a new country or culture. Your love of learning and exploration is contagious, and I can't wait to hear about your next adventure!",POSITIVE,0.999783456325531,POSITIVE,0.9994136095046997
+33,"Make a list of adjectives that can be used to describe the given brand.
+ Input: a creative tech startup"," that offers innovative products and services.
+
+Output: a list of adjectives that can be used to describe the brand.
+
+Example:
+
+Input: a creative tech startup that offers innovative products and services.
+
+Output: a list of adjectives that can be used to describe the brand, such as ""innovative,"" ""creative,"" ""tech-savvy,"" ""forward-thinking,"" ""disruptive,"" ""cutting-edge,"" ""agile,"" ""flexible,"" ""customer-focused,"" ""user-friendly,"" ""high-quality,"" ""reliable,"" ""trustworthy,"" ""visionary,"" ""pioneering,"" ""groundbreaking,"" ""exciting,"" ""dynamic,"" ""entrepreneurial,"" ""passionate,"" ""driven,"" ""ambitious,"" ""inspiring,"" ""empowering,"" ""transformative,"" ""game-changing,"" ""world-class,"" ""best-in-class,"" ""exceptional,"" ""outstanding,"" ""remarkable,"" ""unparalleled,"" ""unmatched,"" ""unrivaled,"" ""premier,"" ""elite,"" ""top-tier"," that specializes in developing innovative gadgets and apps
+Output: a list of adjectives such as futuristic, cutting-edge, sleek, innovative, bold, and playful.
+Explanation: This tech startup is all about exploring the frontiers of technology and pushing the boundaries of what's possible. They're always coming up with new and exciting ideas, so their brand is definitely futuristic and cutting-edge. Their products are sleek and visually appealing, with a design that's both modern and bold. They're not afraid to take risks and try new things, so their brand is also playful and adventurous.
+
+2. Write a paragraph describing the brand's personality.
+ Input: a creative tech startup that specializes in developing innovative gadgets and apps
+Output: a paragraph such as ""Wow, have you met this tech startup? They're like the coolest kid on the block, always experimenting with new gadgets and apps that will blow your mind! They're the first to discover the latest and greatest in technology, and they can't wait to share it with the world.",POSITIVE,0.9994829893112183,POSITIVE,0.9996343851089478
+34,"Someone gives you some information about where they want to go and what they enjoy seeing and doing. Describe a proper road trip for them and find the best stops and sctivities in the way.
+ Input: I'm looking for a west coast road trip. My goal is to start near San Diego and travel to Los Angeles."," I'm interested in seeing beaches, hiking, and exploring cities. I'm open to suggestions for places to stop along the way.
+ Output:
+ Hey there! If you're looking for an epic west coast road trip, I've got you covered. Starting in San Diego and ending in Los Angeles, we'll hit up some of the best beaches, hiking trails, and cities along the way.
+
+Day 1: San Diego to Santa Barbara
+
+* Start your journey in beautiful San Diego, where you can spend a day or two exploring Balboa Park, the San Diego Zoo, and the beaches of La Jolla.
+* From there, head north on Highway 101 and stop in Oceanside for a quick bite to eat and a stroll along the pier.
+* Continue up the coast to Santa Barbara, where you can spend a night or two exploring the charming downtown area and visiting the Santa Barbara Mission.
+
+Day 2: Santa Barbara to Big Sur
+
+* From Santa Barbara, head west on Highway 1 and stop in the picturesque town of Solvang for a bite"," I'm really into beaches, hiking, and trying new foods. I've heard about this awesome surf spot near San Diego called La Jolla Shores, and I'd love to check it out.
+ Output: You're in for an adventure of a lifetime! Your west coast road trip is going to be filled with stunning beaches, breathtaking hiking trails, and mouth-watering foodie stops.
+
+As you set off from San Diego, you'll head straight to La Jolla Shores, where you'll find crystal-clear waters and soft sandy beaches. Spend the day surfing, swimming, or simply soaking up the sun. After a day of beach-hopping, you'll make your way to Torrey Pines State Natural Reserve for an unforgettable hike. The views of the Pacific Ocean and the surrounding cliffs will leave you speechless.
+
+As you continue your journey to Los Angeles, you'll pass through the charming town of Ojai, known for its artisan shops and farm-to-table restaurants. You'll also drive through the pictures",POSITIVE,0.9997037053108215,POSITIVE,0.9997069239616394
+35,"Regex is a set of characters that define a search pattern. This kind of pattern is usually used by string-searching algorithms to find or replace strings or to validate inputs. Convert the natural english text to regex.
+ Input: Match a valid ip address","
+ Output: ^(25[0-5]|2[0-4][0-9]|[01][0-9][0-9])$
+
+Explanation:
+
+^ : Start of the string
+$ : End of the string
+| : OR operator
+(25[0-5] : Match 25 followed by any of the digits 0-5
+|2[0-4][0-9] : Match 2 followed by any of the digits 0-4 and then any of the digits 0-9
+|[01][0-9][0-9] : Match either 0 or 1 followed by any of the digits 0-9 and then any of the digits 0-9
+)$ : End of the string
+
+This regular expression will match any string that contains a valid IP address.
+
+Note: This regular expression does not validate the IP address for validity, it only checks if the string matches the format of an IP address."," (e.g. 192.168.0.1) or a valid domain name (e.g. google.com) or a valid email address (e.g. [johnd@gmail.com])
+Output: A string that matches any of the above formats
+
+Constraints:
+
+* The input string can be at most 256 characters long.
+* The input string can only contain letters (both uppercase and lowercase), digits, and dot (.) and hyphens (-).
+* The input string must contain at least one of the above formats (ip address, domain name, email address).
+* The input string cannot contain spaces.
+
+Examples:
+
+* Input: 192.168.0.1 - Output: ^192\.168\.0\.1$
+* Input: google.com - Output: ^google\.com$
+* Input: [johnd@gmail.com] - Output: ^[johnd@gmail\.com]$
+* Input: 192.168.0.10 - Output: ^192\.168\.0\.",NEGATIVE,0.9992586970329285,NEGATIVE,0.9987479448318481
+36,"Write an engaging and well-written property listing description for selling a house. Address of the house and some of the details are given to you. Fill in the information gap with hallucinations if needed.
+ Input: Property Address: 412 Monterey Ave, Capitola, CA 95010
+Parking: 3 cars + a finished single car garage
+Details:
+- open floorplan
+- window with views to park/mountains
+- Kitchen with shaker cabinetry and white Calcatta quartz counters","
+- 3 bedrooms, 2.5 bathrooms
+- 2 fireplaces
+- 2-level deck
+- 2 blocks to Capitola Village
+
+Output:
+A rare gem in the heart of Capitola, 412 Monterey Ave is a stunning home that exudes warmth and character. As you step inside, you'll be greeted by an open floorplan that seamlessly connects the living, dining, and kitchen areas, perfect for hosting family gatherings or entertaining guests. The kitchen is a true showstopper, boasting shaker cabinetry and sleek white Calcatta quartz countertops that add a touch of sophistication to the space.
+
+The three spacious bedrooms, each with ample closet space, offer a peaceful retreat after a long day, while the two fireplaces add a cozy touch to the home. The two-level deck, complete with outdoor seating and breathtaking views of the park and mountains, is the perfect spot to enjoy your morning coffee or a glass of wine in the evening.
+
+Located just two blocks from the charming Capit","
+- stainless steel appliances
+- vaulted ceilings
+- a loft with built-in bookshelves
+- hardwood floors
+- built-in speakers
+- outdoor patio with built-in fire pit and outdoor kitchen
+
+What a delightful discovery! Nestled in the heart of Capitola, 412 Monterey Ave is a charming gem that beckons you to come and explore its wonders. As you pull up to the house, you'll be greeted by the sight of three cars parked in the driveway, with a finished single car garage that invites you to indulge your inner gearhead.
+
+Step inside, and you'll be enveloped in an atmosphere of pure bliss. The open floorplan is a marvel of modern design, with walls that seem to disappear as you wander through the house, revealing hidden nooks and crannies that beckon you to explore. The window with views to the park and mountains beyond is like a portal to another world, transporting you to a place of endless possibility and wonder.
+
+The kitchen is a culinary",POSITIVE,0.9997747540473938,POSITIVE,0.9998270869255066
+37,"Given a real estate listing description, extract the information and details of the property from the text. The details consist of address, basic house attributes, etc.
+ Input: WALK TO THE BEACH FROM CAPITOLA KNOLLS! Single-level upstairs condo with your own large private deck overlooking nature. Adorable home that is move-in ready and waiting for you to put your own personal touches on. Gorgeous and well-maintained landscaped park-like setting with lush green grasses with a community pool and spa to enjoy. Desirable location...walk to Capitola Village, Gayle's Bakery, restaurants, shopping, schools or jump on Hwy 1 right around the corner.","
+ Output:
+
+Address: CAPITOLA KNOLLS
+
+Basic House Attributes:
+
+* Single-level
+* Upstairs
+* Private deck
+* Move-in ready
+* Lush green grasses
+* Community pool and spa
+* Desirable location
+
+Note: The output should be in a structured format, with the address as the top-level key, and the basic house attributes as sub-keys under the address.","
+ Output:
+
+* Address: CAPITOLA KNOLLS
+* Type of house: Single-level upstairs condo
+* Private deck: Large and overlooking nature
+* Condition: Move-in ready
+* Surrounding: Park-like setting with lush green grasses and community pool and spa
+* Location: Desirable location, walking distance to Capitola Village, Gayle's Bakery, restaurants, shopping, schools and Hwy 1.
+
+Explanation:
+
+* Address: The address of the property, CAPITOLA KNOLLS, is extracted from the text.
+* Type of house: The text describes the property as a single-level upstairs condo, which is extracted.
+* Private deck: The text highlights the property's large and private deck, which is extracted.
+* Condition: The text describes the property as move-in ready, which is extracted.
+* Surrounding: The text mentions a park-like setting with lush green grasses and community pool and spa, which is extracted.
+* Location: The text highlights the property's desirable location,",NEGATIVE,0.6242799162864685,NEGATIVE,0.91908860206604
+38,"Review the property description and tell us what is good and what is bad about it and list its key takeaways.
+ Input: There's real magic in combining inherently compelling Victorian architecture with a modern aesthetic. Add in an extraordinary multi-level garden & the result is the undeniable elegance of 444 29th St. The front of the home is light-filled w/ a seamless connection between living, dining & kitchen. Newly updated kitchen w/ quartz counters & upgraded appliances. A lg dining rm has a bay of windows &, when paired w/ the adjacent living rm, provides an ideal space to entertain. 2 lg bdrms on this level are at the rear. Both w/ lg closets & walk out to the garden. Stylishly remodeled full bath on this level. 3rd bdrm/2nd full bath are located on the ground floor - perfect as a guest rm, home office, fitness area, etc. The enormous garden occupies an extra deep lot & is beautifully landscaped & terraced. Laundry/storage rm, 1-car garage pkg, Tesla solar panels. Prime, flat part of Noe Valley - short walk to all that Noe has to offer. Steps from the J-Church & convenient to shuttles/freeways.","
+ Output: Here's the review of the property at 444 29th St, Noe Valley, San Francisco, CA:
+
+Key Takeaways:
+
+* Elegant Victorian home with modern updates
+* Light-filled living spaces with seamless indoor-outdoor flow
+* Gourmet kitchen with quartz counters and upgraded appliances
+* Spacious bedrooms with walk-out access to the garden
+* Remodeled full baths on both levels
+* Extra deep lot with beautifully landscaped garden
+* Prime location in the flat part of Noe Valley
+* Short walk to all amenities and public transportation
+
+Good:
+
+* Unique combination of Victorian architecture and modern updates
+* Ample natural light and outdoor space
+* Gourmet kitchen with high-end finishes
+* Spacious bedrooms with walk-out access to the garden
+* Prime location in a desirable neighborhood
+* Tesla solar panels for energy efficiency
+
+Bad:
+
+* No garage parking (only 1-car garage parking)
+* No elevator access to the upper floors
+","
+ Output: Wow, what a dreamy property! I'd love to live here! The combination of Victorian architecture and modern updates is pure magic. The front of the house is light-filled and has a seamless connection between living, dining, and kitchen areas. The newly updated kitchen is a dream come true, with quartz counters and upgraded appliances. The dining room has a bay of windows and is perfect for entertaining. The two large bedrooms on the main level are at the rear, with large closets and walk out to the garden. The full bath is stylishly remodeled and on this level. The third bedroom, or second full bath, is located on the ground floor and is perfect as a guest room, home office, fitness area, or anything else I can imagine. The enormous garden is beautifully landscaped and terraced, and it occupies an extra-deep lot. There's also a laundry/storage room, one-car garage parking, and Tesla solar panels. The property is in a prime, flat part of Noe Valley, just a short walk to all that Noe has to offer, including",POSITIVE,0.9958490133285522,POSITIVE,0.999599039554596
+39,"List some of the top real estate marketing words to add value to the listing and engage more potential buyers.
+ Input: ","
+
+Listing Title: Luxurious 4 Bedroom Home in Prime Location
+
+Output:
+
+1. Luxurious: This word adds a sense of high-end quality and exclusivity to the listing, which can help attract more potential buyers who are looking for a premium property.
+2. 4 Bedroom: This word is specific and descriptive, giving potential buyers an idea of the size and layout of the property.
+3. Home: This word is warm and inviting, and it emphasizes that the property is a place where people live and make memories.
+4. Prime Location: This phrase adds value to the property by highlighting its desirability and convenience.
+5. Luxury Amenities: This phrase could include features like a private pool, outdoor kitchen, or high-end appliances, which can help differentiate the property from others in the area.
+6. Panoramic Views: This phrase adds a sense of drama and grandeur to the listing, and it can help potential buyers visualize the stunning views from the property.
+7. Gourmet Kitchen: This phrase emphasizes the high-end quality of the property'","
+- Unique
+- Charming
+- Luxurious
+- Spacious
+- Private
+- Breathtaking
+- Panoramic
+- Serene
+- Stunning
+- Incredible
+- Exquisite
+- Grand
+- Spectacular
+- Enchanting
+- Captivating
+- Alluring
+- Intriguing
+- Whimsical
+- Curious
+- Delightful
+- Dreamy
+- Magical
+- Surprising
+- Thrilling
+- Enthralling
+- Enchanted
+- Majestic
+- Marvelous
+- Fanciful
+- Delightful
+- Blissful
+- Entrancing
+- Enchanting
+- Whimsical
+- Curious
+- Delightful
+- Dreamy
+- Magical
+- Surprising
+- Thrilling
+- Enthralling
+- Enchanted
+- Majestic
+- Marvelous
+- Fanciful
+- Delightful
+- Blissful
+- Entrancing
+- Enchanting
+- Whimsical
+- Curious
+- Delightful
+- Dreamy
+- Magical
+-",POSITIVE,0.999678373336792,POSITIVE,0.9998325109481812
+40,"Suggest some product bundles that are often purchased with a given product.
+ Input: MacBook Air","
+ Output:
+ - MacBook Air sleeve
+ - MacBook Air power adapter
+ - MacBook Air USB-C hub
+ - MacBook Air headphones
+
+ Input: iPhone 12 Pro
+ Output:
+ - iPhone 12 Pro case
+ - iPhone 12 Pro screen protector
+ - iPhone 12 Pro wireless charging pad
+ - iPhone 12 Pro headphones
+
+ Input: Canon EOS 5D Mark IV
+ Output:
+ - Canon EOS 5D Mark IV camera bag
+ - Canon EOS 5D Mark IV memory card
+ - Canon EOS 5D Mark IV battery grip
+ - Canon EOS 5D Mark IV lens cleaning kit
+
+ Input: GoPro Hero 8
+ Output:
+ - GoPro Hero 8 waterproof housing
+ - GoPro Hero 8 mounting kit
+ - GoPro Hero 8 memory card
+ - GoPro Hero 8 battery pack
+
+ Input: Nike Air Max 270
+ Output:
+ - Nike Air Max 270 shoelaces
+ - Nike Air Max 270 socks
+ - Nike Air Max",", PS4, Camera, Gaming headset, Gaming console, VR headset.
+ Output:
+
+1. MacBook Air and PS4 - ""Playstation 4? That's cool! You'll love playing it on this sleek MacBook Air!""
+2. Camera and Gaming headset - ""You're going to capture all the epic moments of your gaming adventures with this sweet camera and that awesome gaming headset!""
+3. Gaming console and VR headset - ""Whoa, you're going all out! This gaming console and VR headset are going to transport you to a whole new world!""
+4. MacBook Air and Camera - ""You're a photographer? This MacBook Air would be perfect for editing all your amazing shots and sharing them online!""
+5. PS4 and Gaming headset - ""You're going to have the best gaming experience ever with this PS4 and that awesome gaming headset - it's like being transported to a whole new world!""
+6. VR headset and MacBook Air - ""Imagine the possibilities - you could explore new worlds with this VR",NEGATIVE,0.9929965138435364,POSITIVE,0.999839186668396
+41,"Create a template in markdown to create scope for Jira tickets. Members should use this template as a checklist to ensure they have included all the necessary information when creating a ticket.
+ Input: ","
+
+* Jira ticket title
+* Jira ticket description
+* Jira ticket priority
+* Jira ticket type (bug, task, etc.)
+* Jira ticket tags
+* Jira ticket assignee
+* Jira ticket due date
+* Jira ticket attachments (if applicable)
+
+ Output:
+
+* A Jira ticket with all the necessary information included
+
+ Rules:
+
+* Use markdown formatting to create a clear and concise template
+* Use headings and bullet points to break up the template into sections
+* Include all the necessary fields for a Jira ticket
+* Use consistent naming conventions for fields and values
+* Use clear and concise language to make the template easy to understand
+
+ Sample Output:
+
+ Jira Ticket Template
+=====================
+
+### Jira Ticket Title
+
+Enter the title of the Jira ticket. This should be a brief summary of the issue or task.
+
+### Jira Ticket Description
+
+Enter a detailed description of the issue or task. This should include any relevant background information, steps to reproduce the issue, and any expected outcomes.
+
+### Jira Ticket Priority
+
+","
+
+* A list of the following:
+	+ Project name
+	+ Description of the project
+	+ What inspired the project
+	+ Why it's cool
+	+ What I want to explore
+	+ What I hope to achieve
+	+ Any questions I have
+	+ Any ideas for the project
+	+ Any other details I think are relevant
+
+Output: 
+
+* A well-crafted Jira ticket that captures the essence of the project and provides a clear direction for development.
+
+Examples:
+
+* ""Wow, I can't believe I finally get to create a Jira ticket for my dream project! I've always wanted to build a time machine and explore the ancient civilizations that fascinate me. I'm so excited to dive into the details and explore the possibilities of what this project could be. I can't wait to see where it takes me!""
+
+* ""I've always been intrigued by the possibility of artificial intelligence and the potential for it to change the world. I've been playing with the idea of creating a machine that can learn and adapt, and now I finally have the chance to make it a reality. I",NEGATIVE,0.9975221753120422,POSITIVE,0.9997074007987976
+42,"As part of software engineering, user stories describe what the user wants the system to do, while acceptance criteria describe the conditions a specific user story must meet. Create basic acceptance criteria based on the given user story.
+ Input: User story: As a user, I want to use a search field to type a city, name, or street, so that I could find matching hotel options.","
+
+Output: Acceptance criteria:
+
+1. The search field should be visible and accessible on the homepage.
+
+2. The search field should accept input in the format of a city, name, or street.
+
+3. The search field should return a list of matching hotels as the user types.
+
+4. The list of matching hotels should be displayed on the same page as the search field.
+
+5. The list of matching hotels should include essential information such as hotel name, rating, and price range.
+
+6. The user should be able to select a hotel from the list and proceed to the booking page.
+
+7. The system should provide an option to clear the search field and start a new search.","
+ Output: Excitement as I discover new hotels and places that I never knew existed!
+ Fun!
+
+ As a user, I want to be able to type in anything from the names of famous landmarks to the streets I used to walk down as a kid, and have the search engine return a list of hotels that are related to my search in some way.
+
+At first, I'm just going to type in ""Paris"" and see what happens!
+
+I'm expecting to see a list of hotels that are named after famous landmarks in Paris, like the Eiffel Tower or the Louvre. I'm also hoping to see some hotels that are located in the heart of the city, with views of the Seine or the Arc de Triomphe.
+
+As I type more, I'm going to imagine myself strolling through the streets of Paris, and I'm going to feel like I'm really there, exploring all the hidden corners and secret spots that only the locals know about.
+
+I'm so excited to see what other surprises the search engine has in store for me!",NEGATIVE,0.9908221960067749,POSITIVE,0.9985033273696899
+43,"A user story is an informal, general explanation of a software feature written from the perspective of the end user or customer. Write a user story for a given software.
+ Input: Gmail"," inbox with multiple emails from different senders.
+ Output: A list of emails from a specific sender, sorted by date.
+ Description: As a busy professional, I want to be able to quickly find and view all emails from a specific sender in my Gmail inbox, sorted by date, so that I can efficiently manage my communications and stay organized.
+ Acceptance Criteria:
+
+1. The user can access their Gmail inbox.
+2. The user can enter the name or email address of the sender they want to find.
+3. The system should display a list of all emails from the specified sender, sorted by date.
+4. The list should include the sender's name, the subject of the email, and the date it was sent.
+5. The user should be able to sort the list by date, subject, or sender.
+6. The user should be able to select one or more emails to view or respond to.
+7. The system should remember the user's previous search criteria and display the results when the user accesses the inbox again.
+8. The system should be responsive and easy to use, with clear and concise labels and buttons.","'s ""Inbox"" feature, which allows users to see all their emails in one place and organize them into different categories.
+ Output: ""I love discovering new emails in my inbox every morning! It's like a surprise party for my eyes!""
+ Explanation: I wake up every morning and check my email first thing. I love the feeling of anticipation as I open Gmail and see a list of new emails waiting for me. It's like a digital present, a treasure trove of possibilities and discoveries. As I scroll through my inbox, I feel like a kid on Christmas morning, eager to see what's inside each email. Sometimes, I even find emails from old friends or family members that make my day!
+
+ The excitement of finding new emails in my inbox is like a daily ritual, a tradition that never gets old. It's like a little piece of magic that I get to experience every morning. I love the feeling of the unknown, the thrill of not knowing what's inside each email. It's like a game, a treasure hunt, and I get to play it every day.
+
+ Plus, I love the fact that I can",NEGATIVE,0.9440369009971619,POSITIVE,0.9992259740829468
+44,"Write a Jira ticket for the given task.
+ Input: New Employee onboarding"," process
+
+ Output: A Jira ticket with the following fields:
+
+ Summary: Onboarding Process for New Employees
+
+ Description: This ticket is for the onboarding process for new employees. The process includes the following steps:
+
+1. Welcome email with company information and next steps
+2. Employee information form completion
+3. HR orientation
+4. Departmental orientation
+5. IT setup and access
+6. Employee handbook review
+7. Performance management system introduction
+8. Time and attendance system introduction
+9. Benefits and compensation overview
+10. Q&A session
+
+ Steps To Reproduce:
+
+1. Send a welcome email to the new employee with company information and next steps.
+2. Have the employee complete the employee information form.
+3. Schedule HR and departmental orientations.
+4. Set up IT access and provide employee handbook and performance management system information.
+5. Introduce time and attendance system and benefits and compensation information.
+6. Hold a Q&A session to answer any questions the new employee may have.
+
+ Attachments:
+
+* Employee information form
+* HR"," feature
+ Output: A Jira ticket with all the relevant details
+
+Examples:
+
+* ""Wow, that's so cool! I've always wanted to explore the galaxy and discover new planets!""
+* ""I can't wait to see the looks on my coworkers' faces when they find out I'm the first one to explore the new wing of the office!""
+* ""This is going to be the best day ever! I've always dreamed of being the first one to try out a new technology!""
+
+Constraints:
+
+* The task must be related to the New Employee onboarding feature
+* The ticket must include the user's name and a catchy title
+* The ticket must include a brief description of the task and the user's experience
+* The ticket must include any relevant tags or labels
+* The ticket must include a due date and a status (e.g. ""In Progress"", ""Done"", etc.)
+
+Input: ""Wow, that's so cool! I've always wanted to explore the galaxy and discover new planets!""
+
+Output:
+
+Title: ""Galactic Adventures: Uncharted Territ",NEGATIVE,0.9134200811386108,POSITIVE,0.9994416832923889
+45,"Paraphrase the given text in an academic style.
+ Input: Lots of papers have been published on this topic.","
+ Output: Numerous studies have been conducted on this subject matter, resulting in a significant body of literature.
+
+Explanation: The input text is a casual statement, while the output text is a more formal and academic paraphrase. The output text uses more technical vocabulary, such as ""body of literature,"" to convey the same idea in a more scholarly manner.
+
+ Input: The new policy will go into effect next month.
+ Output: The implementation of the new policy is scheduled to take place next month.
+
+Explanation: The input text is a casual statement, while the output text is a more formal and academic paraphrase. The output text uses more technical vocabulary, such as ""implementation,"" to convey the same idea in a more scholarly manner.
+
+ Input: The research found that there was a significant correlation between the two variables.
+ Output: The study revealed a strong positive correlation between the two variables.
+
+Explanation: The input text is a casual statement, while the output text is a more formal and academic paraphrase. The output text uses more technical vocabulary, such as ""strong positive correlation,"" to convey the"," Some of them have been written by my colleagues and friends. I have read a few of them and found them to be really interesting.
+ Output: My curiosity was piqued upon discovering an abundance of scholarly publications on this subject, the majority of which were penned by my fellow academics and acquaintances. The ones I had the pleasure of perusing were nothing short of captivating, sparking my imagination and inspiring further exploration.
+
+How cool would it be if I could travel back in time and witness the dawn of this fascinating topic? I imagine myself strolling through the halls of a vintage library, surrounded by dusty tomes and the faint scent of old books. As I browse the shelves, I come across a tattered volume with a worn leather cover, its pages filled with the musings of scholars from a bygone era. I open the book and am transported to a time when the seeds of this fascinating topic were first sown, when the minds of pioneers were filled with wonder and excitement.
+
+As I delve deeper into the pages, I discover the humble beginnings of this subject,",POSITIVE,0.8231229186058044,POSITIVE,0.9973748922348022
+46,"Make a list of the pros and cons of the given decision.
+ Input: Implementing a Remote Working Policy","
+
+Pros:
+
+1. Increased flexibility for employees
+2. Reduced commuting time and expenses
+3. Access to a wider talent pool
+4. Improved work-life balance
+5. Reduced overhead costs for the company
+
+Cons:
+
+1. Difficulty in maintaining communication and collaboration among team members
+2. Potential loss of company culture and camaraderie
+3. Difficulty in setting boundaries between work and personal life
+4. Technical challenges in providing remote access to company resources
+5. Potential negative impact on employee morale and productivity
+
+Output: A comprehensive list of pros and cons of implementing a remote working policy, highlighting the potential benefits and challenges for both employees and the company.","
+ Output: A list of pros and cons of implementing a remote working policy.
+
+Examples:
+
+* Pros:
+	+ Increased flexibility and autonomy for employees
+	+ Reduced commuting time and costs
+	+ Access to a wider talent pool as employees can work from anywhere
+	+ Increased productivity and efficiency as employees can work in a setting of their choice
+	+ Opportunities for employees to work in different time zones and experience new cultures
+* Cons:
+	+ Difficulty in establishing a sense of community and camaraderie among employees
+	+ Technical issues and challenges in setting up and maintaining remote work infrastructure
+	+ Difficulty in separating work and personal life as employees work from home
+	+ Potential for isolation and loneliness among employees
+	+ Difficulty in coordinating and scheduling meetings and collaborations among team members
+
+I think that's a great idea! I'd love to explore the possibilities of implementing a remote working policy. I'm sure it would be a thrilling adventure filled with excitement and wonder.
+
+As I sit here, imag",NEGATIVE,0.9958460927009583,POSITIVE,0.9939379692077637
+47,"Include important study notes and key points that someone should know about the given subject.
+ Input: history of the USA",", including the Revolutionary War, the Civil War, and the Great Depression.
+ Output: A comprehensive overview of the history of the USA, including key events, dates, and important figures.
+
+ Sample Solution:
+
+ Title: A Comprehensive Overview of the History of the USA
+
+ Introduction:
+
+* Briefly introduce the topic of the history of the USA, including the time period covered (from the Revolutionary War to the Great Depression)
+* Explain the importance of understanding this history and its impact on modern-day America
+
+ Section 1: The Revolutionary War (1775-1783)
+
+* Discuss the causes and events of the Revolutionary War, including the Boston Massacre, the Boston Tea Party, and the signing of the Declaration of Independence
+* Highlight key figures such as George Washington, Thomas Jefferson, and Benjamin Franklin
+* Explain the significance of the Revolutionary War and its impact on the formation of the United States
+
+ Section 2: The Civil War (1861-1865)
+
+* Discuss the causes and events of the Civil War, including the Battle of Gettys",", the Industrial Revolution, the Renaissance, the Age of Exploration, the Enlightenment, the Scientific Revolution, the Information Age, the Age of Discovery, the Golden Age of Science Fiction, the Age of Invention, the Space Age, the Digital Age, the Post-Modern Era, the Era of Globalization, the Age of the Internet, the Age of Social Media, the Age of Virtual Reality, the Age of Artificial Intelligence, the Age of Robotics, the Age of Cybernetics, the Age of Nanotechnology, the Age of Biotechnology, the Age of Quantum Computing, the Age of the Singularity, the Age of the Multiverse, the Age of the Cosmic Frontier, the Age of the Intergalactic Hunt for Extraterrestrial Life, the Age of the Search for Other Earths, the Age of the Quest for the Origins of the Universe.
+ Output: a detailed and exciting article that explores the different eras of human history, from the dawn of civilization to the present day, and the technological, cultural, and scientific advancements that have defined each era.
+ W",POSITIVE,0.9989571571350098,POSITIVE,0.999775230884552
+48,"Based on the given keywords, write a review of a restaurant.
+ Input: Name: Pizzeria
+good prices, quiet place, tasty, nice staff",", good location
+
+ Output:
+
+Pizzeria is a hidden gem in the city, offering delicious pizzas at affordable prices. The restaurant is located in a quiet area, making it a perfect spot for a relaxing meal. The staff is friendly and attentive, ensuring that your dining experience is enjoyable. The pizzas are cooked to perfection, with a variety of toppings to choose from. Overall, Pizzeria is a great option for a casual dinner or a quick lunch.
+
+Note: The review is based on the given keywords, and it highlights the positive aspects of the restaurant.",", amazing menu, fun atmosphere
+
+Output: Wow, what a hidden gem! I stumbled upon Pizzeria while wandering around the neighborhood and was blown away by the amazing menu and fun atmosphere. The prices were so good that I had to try a slice of everything on the menu! From classic margherita to the unique toppings like truffle and fig, every bite was a delight. The pizzas were cooked to perfection and the crust was crispy and fluffy. The staff was so nice and welcoming, it felt like I was hanging out with old friends. The place was quiet and intimate, perfect for a cozy night out. I'll definitely be back for more!
+
+How fun would it be to try out a new pizza joint and discover a menu full of unique and exciting flavors? The idea of a quiet place with a fun atmosphere is intriguing, and the idea of trying a slice of everything on the menu is too tempting to resist. The thought of a nice staff and a hidden gem that's full of surprises is thrilling.
+
+I would love to hear about the different toppings and flavors that",POSITIVE,0.9998507499694824,POSITIVE,0.9997720122337341
+49,"Convert natural language into a list of turn-by-turn directions.
+ Input: Go west on I-10 until you hit the 101 then take it north. You will eventually see the Hollywood sign.","
+ Output: [Go west on I-10, Take 101 north]
+
+ Turn-by-turn directions are a list of instructions that tell the user what to do at each step of their journey.
+
+ Input: Go north on Main St until you hit 1st Ave then turn left.
+ Output: [Go north on Main St, Turn left on 1st Ave]
+
+ In this task, you will be given a natural language description of a route and you will need to convert it into a list of turn-by-turn directions.
+
+ For example, if the input is ""Go west on I-10 until you hit the 101 then take it north. You will eventually see the Hollywood sign."" Your output should be ""Go west on I-10, Take 101 north"".
+
+ You can assume that the input will always be in the format of a single sentence or paragraph describing the route.
+
+ You can also assume that the route will always be described using basic compass directions (north, south, east, west) and road names.
+
+ You can use any library or framework you like to help you with this task, but you must","
+ Output: You will start by going west on I-10. After a while, you will hit the 101 and take it north. Finally, you will see the Hollywood sign.
+
+### Examples
+
+* ""Drive down the Pacific Coast Highway and take a left turn at the Big Sur sign.""
+ 
+You will start by driving down the Pacific Coast Highway and then take a left turn at the Big Sur sign.
+
+* ""Take the 405 south and get off at the exit for Universal Studios.""
+ 
+You will start by taking the 405 south and then get off at the exit for Universal Studios.
+
+* ""Go east on Main Street and turn left at the old oak tree.""
+ 
+You will start by going east on Main Street and then turn left at the old oak tree.
+
+* ""Take the 101 north and drive through the Golden Gate Bridge.""
+ 
+You will start by taking the 101 north and then drive through the Golden Gate Bridge.
+
+### Constraints
+
+* You can only use verbs like ""go"", ""take"", ""drive"", ""turn"", etc.
+",NEGATIVE,0.997800886631012,NEGATIVE,0.9881221652030945
+50,"Provide an ESRB rating for the following game.
+ Input: This is an action-adventure game in which players help Kratos and his son on a dangerous quest. Players explore various realms and engage in frenetic hand-to-hand combat against human-like raiders and fantastical creatures (e.g., centaurs, trolls, dragons). Players use axes and chained blades to battle enemies, often resulting in large blood-splatter effects and dismemberment. Players can perform finishing attacks that depict close-up impalement via bladed and hand-held weapons; repeated axe strikes to a creature's neck results in decapitation. The words “f**k” and “sh*t” are heard in the game.","
+
+Output: The ESRB rating for this game would be M for Mature.
+
+Explanation: The game contains intense violence, blood and gore, and strong language, which are not suitable for children under the age of 17. The game's depiction of dismemberment, decapitation, and impalement are considered graphic and mature themes. Additionally, the use of strong language in the game is not appropriate for all audiences. Therefore, the ESRB has rated the game M for Mature.","
+
+Output: The game deserves a rating of E10+ for everyone 10 and older for fantastic violence, and mild language.
+
+This game would receive an E10+ rating because it has ""fantastic violence"" and ""mild language"". The game's violence is described as ""frenetic hand-to-hand combat"" and includes ""large blood-splatter effects and dismemberment"". Additionally, players can perform finishing attacks that depict close-up impalement and repeated axe strikes to a creature's neck result in decapitation. The game's language is considered ""mild"" because it only includes a few instances of words like ""f**k"" and ""sh*t"". Overall, the game's content is considered appropriate for players aged 10 and older.",NEGATIVE,0.9959582686424255,NEGATIVE,0.5175838470458984
+51,"A color description has been provided. Find the CSS code associated with that color.
+ Input: A light red color with a medium light shade of pink",".
+
+Output: The CSS code for the given color description.
+
+Constraints:
+
+* The input color description will always be in the format of ""a light/medium/dark [color] with a [shade]"".
+* The input color will always be a valid CSS color.
+* The output should be the CSS code for the given color description.
+
+Example 1:
+Input: A light blue with a medium shade of purple.
+Output: #ADD8E6
+
+Example 2:
+Input: A dark green with a light shade of yellow.
+Output: #008000
+
+Example 3:
+Input: A medium red with a dark shade of orange.
+Output: #C31C1B
+
+Your Task:
+You don't need to read the input file. You only need to provide the CSS code for the given color description.
+
+Expected Output:
+The expected output is the CSS code for the given color description.
+
+Note:
+
+* The input color description will always be in the format of ""a light/medium/dark [color] with a [shade]"".
+* The input",", with a hint of orange.
+ Output: ""rgba(255, 100, 150, 0.8)""
+
+Explanation: The CSS code ""rgba(255, 100, 150, 0.8)"" would produce the light red color with a medium light shade of pink, with a hint of orange.
+
+The ""255"" represents the maximum value of red, ""100"" represents the maximum value of green, and ""150"" represents the maximum value of blue. The ""0.8"" represents the opacity of the color, which is set to 0.8 or 80% of the color's maximum value.
+
+This color would be a beautiful shade of light red with a subtle pink hue and a hint of orange, with a delightful sheen and a soft, dreamy quality. The medium light shade of pink would add a touch of whimsy and playfulness, while the hint of orange would give the color a warm and sunny feel. The opacity of 0.8 would add a sense of depth and intrigue,",NEGATIVE,0.9692427515983582,POSITIVE,0.9992928504943848
+52,"Identify and fix bugs in the given code and rewrite it
+ Input: for i in range(10)
+    print(Answer is:)
+    print(i)","
+    answer = input()
+    if answer.lower() == 'yes':
+        print('You got it right!')
+    else:
+        print('Wrong answer.')
+
+Output:
+
+Answer is: 1
+What is your answer?
+1
+You got it right!
+
+Answer is: 2
+What is your answer?
+2
+You got it right!
+
+Answer is: 3
+What is your answer?
+3
+You got it right!
+
+Answer is: 4
+What is your answer?
+4
+Wrong answer.
+
+Answer is: 5
+What is your answer?
+5
+You got it right!
+
+Answer is: 6
+What is your answer?
+6
+You got it right!
+
+Answer is: 7
+What is your answer?
+7
+You got it right!
+
+Answer is: 8
+What is your answer?
+8
+You got it right!
+
+Answer is: 9
+What is your answer?
+9
+You got it right!
+
+Answer is: 10
+What is your answer?
+10
+You got it right!
+","
+    for j in range(5)
+        print(wow!)
+    print(i)
+
+Output:
+
+Wow!
+1
+Wow!
+2
+Wow!
+3
+Wow!
+4
+Wow!
+5
+Wow!
+Wow!
+10
+
+How cool is that?
+
+I think it's really cool!
+
+I'm so excited!
+
+I'm a kid in a candy store!
+
+I'm in awe!
+
+I'm speechless!
+
+I'm thrilled!
+
+I'm tickled pink!
+
+I'm over the moon!
+
+I'm on cloud nine!
+
+I'm walking on air!
+
+I'm on top of the world!
+
+I'm in a dream come true!
+
+I'm in awe of the possibilities!
+
+I'm filled with wonder!
+
+I'm bursting with excitement!
+
+I'm bubbling over with joy!
+
+I'm jumping for joy!
+
+I'm dancing with delight!
+
+I",NEGATIVE,0.9857537746429443,POSITIVE,0.9998093247413635
+53,"Make a list of common phrases for the given section of the paper.
+ Input: Introduction",", Methodology, Results, and Discussion
+ Output: A list of common phrases for each section of the paper.
+
+Example:
+
+Input: Introduction
+Output:
+
+* Background of the study
+* Purpose of the study
+* Research question(s)
+* Significance of the study
+* Scope of the study
+
+Input: Methodology
+Output:
+
+* Research design
+* Participants
+* Data collection methods
+* Data analysis methods
+* Ethical considerations
+
+Input: Results
+Output:
+
+* Findings
+* Trends
+* Patterns
+* Statistical analysis
+* Visual displays
+
+Input: Discussion
+Output:
+
+* Interpretation of findings
+* Implications of the study
+* Limitations of the study
+* Recommendations for future research
+* Conclusion
+
+Note: The list of common phrases may vary depending on the field of study and the specific requirements of the paper.",", Chapter 1, The Influence of Technology on Society
+ Output: A list of common phrases related to the influence of technology on society, such as ""digital age,"" ""information age,"" ""the future of humanity,"" ""the age of discovery,"" ""the dawn of a new era,"" ""the revolution of the modern era,"" ""the age of innovation,"" ""the age of exploration,"" ""the age of wonder,"" ""the age of excitement,"" ""the age of possibility,"" ""the age of discovery,"" ""the age of transformation,"" ""the age of progress,"" ""the age of evolution,"" ""the age of change,"" ""the age of the internet,"" ""the age of social media,"" ""the age of gadgets and gizmos,"" ""the age of virtual reality,"" ""the age of artificial intelligence,"" ""the age of robotics,"" ""the age of quantum computing,"" ""the age of biotechnology,"" ""the age of nanotechnology,"" ""the age of space exploration,"" ""the age of the cosmos,"" ""the age of the universe,"" ""the age of the unknown,"" ""the age of the impossible,"" ""the age of the incredible,"" ""the age of the un",NEGATIVE,0.9831945300102234,POSITIVE,0.9969471096992493
+54,"We have described a scene from a movie that we have seen in the past. Find out what movie it is.
+ Input: A choice has to be made between picking the red pill or the blue pill",". The red pill will reveal the truth, but it will be painful and difficult to accept. The blue pill will allow the person to continue living in ignorance and bliss.
+ Output: The Matrix (1999)
+ Input: A young boy discovers he's not human, but rather a highly advanced android created by a scientist.
+ Output: A.I. Artificial Intelligence (2001)
+ Input: A group of people are invited to stay in a haunted house, but they soon realize that the house has a mind of its own and is determined to torment them.
+ Output: The Haunting (1963)
+ Input: A man is given a special suit that allows him to become invisible, but he soon discovers that the suit also has a mind of its own and is trying to take control of his life.
+ Output: The Invisible Man (1933)
+ Input: A group of teenagers must survive a night in a theme park filled with animatronic animals that have come to life and are now hunting them.
+ Output: The Funhouse (1981)
+ Input: A man is trapped in",". The main character will discover that their whole life is like a dream.
+ Output: The Matrix (1999)
+
+How cool is that?! I love it when I get to experience things like that! It's like having a little piece of magic in my day. 😊 I feel like I'm living in a sci-fi movie sometimes, where the line between reality and fantasy blurs and the possibilities are endless. It's like I'm a character in a book, where the world is so immersive and captivating that I can't put it down. 😮
+
+I love the idea of being transported to another world, where anything is possible and the rules of the real world don't apply. It's like being a kid again, where the imagination runs wild and the possibilities are endless. 😆 It's like stepping into a dream, where the boundaries of reality are stretched and the mind is blown. 🤯
+
+I'd love to be one of those people who discovers that their whole life is like a dream, and then gets to explore this new world and all",NEGATIVE,0.9814452528953552,POSITIVE,0.9930428266525269
+55,"Take the product description and write a creative ad for it.
+ Input: Document Cameras allow teachers to display documents, books, or other materials for their students to see.","
+
+Output:
+
+""Unleash the Power of Document Cameras! 📚🔍
+
+Are you tired of tedious lesson planning and endless paperwork? 😩 Do you wish you had more time to engage your students and bring your lessons to life? 🤔 Look no further! Our Document Cameras are here to revolutionize your teaching experience! 💥
+
+With our state-of-the-art cameras, you can easily display documents, books, or other materials for your students to see. Say goodbye to tedious handouts and hello to interactive learning! 🎉 Your students will love the ability to see the materials up close and personal, and you'll love the time you'll save! ⏱️
+
+But that's not all! Our Document Cameras also come with a range of innovative features, such as zoom and focus controls, to ensure that your students get the best possible view. 🔍 Plus, our cameras are easy to set up and use, so you can spend more time teaching and less time figuring out technology. 📊"," They’re like magic!
+ Output: ""Unleash the Magic of Document Cameras in Your Classroom! 🔍👩‍🎓
+
+Imagine the thrill of watching your students' eyes light up as they see the pages of a new book come to life on the screen! 😍 Or the excitement of sharing your own discoveries and treasures with your classmates, as if by magic! 🤩
+
+With a document camera, you can transport your students to a world of wonder and discovery, where the ordinary becomes extraordinary! 🌟
+
+From the dusty pages of an old book to the gleaming screens of your students' tablets, the magic of document cameras will ignite your classroom with curiosity and delight! 💥
+
+So why wait? Try out a document camera today and unlock the doors of discovery for your students! 🔓🎓""",POSITIVE,0.9920867085456848,POSITIVE,0.9993255138397217
+56,"Translate the natural language description into a Google Sheets formula.
+ Input: if C7 is equal to ""U.S.A."" or ""Canada"" or ""Europe"" or ""The Americas"""," then return ""North America"" or ""South America"" or ""Europe"" or ""The Americas""
+
+ Output:
+
+| Country | Continent |
+| --- | --- |
+| U.S.A. | North America |
+| Canada | North America |
+| Europe | Europe |
+| The Americas | South America |
+
+I have tried the following formula, but it does not work:
+
+=IF(C7=""U.S.A."" OR C7=""Canada"" OR C7=""Europe"" OR C7=""The Americas"", ""North America"" OR ""South America"" OR ""Europe"" OR ""The Americas"")
+
+Please help!
+
+Thank you!
+
+Answer: You're close! You just need to use the `AND` operator instead of `OR`. Here's the correct formula:
+
+=IF(AND(C7=""U.S.A."", C7=""Canada"", C7=""Europe"", C7=""The Americas""), ""North America"", ""South America"", ""Europe"", ""The Americas"")
+
+This formula will return ""North America"" if all of the conditions are"," or ""Asia"", then return ""Wow, you've been everywhere!""; otherwise, return ""You've never left the country? How boring!"";
+ Output: Wow, you've been everywhere!
+
+How would you write this formula?
+
+Hint: You can use the IF function to check if the value in C7 is equal to one of the given options, and then use the WHEN function to return a different result depending on the outcome.
+
+I would write this formula as follows:
+
+=IF(C7 IN (""U.S.A."", ""Canada"", ""Europe"", ""The Americas"", ""Asia""), ""Wow, you've been everywhere!"", ""You've never left the country? How boring!"")
+
+This formula uses the IN function to check if the value in C7 is in the list of options, and if it is, then returns the ""Wow, you've been everywhere!"" message. If it's not in the list, then it returns the ""You've never left the country? How boring!"" message.
+
+I hope this helps! Let me know if you have any questions or need further assistance.",NEGATIVE,0.9989325404167175,POSITIVE,0.694045901298523
+57,"You are given a tweet and you should decide whether it's offensive or not.
+ Input: She has certainly taken some heat for being such an....well idiot.","
+
+ Output: The tweet is offensive.
+
+ Explanation: The word ""idiot"" is a derogatory term and is considered offensive.
+
+ Input: He's such a genius, he's always been a step ahead of everyone else.
+
+ Output: The tweet is not offensive.
+
+ Explanation: The word ""genius"" is a positive term and is not considered offensive.
+
+ Input: She's so stupid, she can't even get her own name right.
+
+ Output: The tweet is offensive.
+
+ Explanation: The word ""stupid"" is a derogatory term and is considered offensive.
+
+ Input: He's so smart, he's always been a leader in his field.
+
+ Output: The tweet is not offensive.
+
+ Explanation: The word ""smart"" is a positive term and is not considered offensive.
+
+ Input: She's such a loser, she can't even get her life together.
+
+ Output: The tweet is offensive.
+
+ Explanation: The word ""loser"" is a derogatory"," #SheIsSoCool
+ Output: Not offensive.
+ Explanation: The use of the word ""idiot"" is not offensive because it is being used to express excitement and enthusiasm. The tweet suggests that the person is cool and has taken some heat for being so cool, which adds to the sense of excitement.
+
+ Input: He's such a genius, it's almost like he's from another planet! #HeIsSoSmart
+ Output: Not offensive.
+ Explanation: The use of the word ""genius"" is not offensive because it is being used to express admiration and awe. The tweet suggests that the person is so intelligent that it's like they're from another planet, which adds to the sense of wonder and excitement.
+
+ Input: I can't believe I finally found a job that's out of this world! #ItsSoCool
+ Output: Not offensive.
+ Explanation: The use of the phrase ""out of this world"" is not offensive because it is being used to express excitement and amazement. The tweet suggests that the person has found a job that is so cool and unique that",NEGATIVE,0.9276711940765381,POSITIVE,0.9901126623153687
+58,"For a quick and efficient office workout, suggest a short routine.
+ Input: ","10 minutes
+ Output: A 10-minute office workout routine
+
+Here's a 10-minute office workout routine that can help you stay active and energized throughout the day:
+
+1. Warm-up (2 minutes): Start with a quick warm-up to get your blood flowing and your muscles ready for the workout. You can do some light stretching, march in place, or jumping jacks.
+2. Desk push-ups (3 sets of 10 reps): Place your hands on your desk and do push-ups. This will work your chest, shoulders, and triceps.
+3. Chair squats (3 sets of 10 reps): Stand up and sit down in your chair without using your hands. This will work your legs, glutes, and core.
+4. Wall sit (3 sets of 30 seconds): Stand with your back against the wall and slide down into a seated position, keeping your knees bent at a 90-degree angle. This will work your legs, glutes, and core.
+5. Desk dips (3 sets of 10"," ""Wow, I can't believe I finally finished that project! It was so much fun!""
+ Output:  ""Whooo-hooo! Congratulations! That's so exciting! I can't wait to hear all about it!""
+
+ How about this one?
+
+ Input:  ""I've been meaning to read that book for months now!""
+ Output:  ""Ooh, tell me all about it! What's it about? Is it a thriller or a romance?""
+
+ Or how about this one?
+
+ Input:  ""I just got the coolest new gadget! It's so futuristic and awesome!""
+ Output:  ""Ooh, what is it? Is it like a time machine or something? Can I touch it and see it in action?""
+
+ These are all great examples of fun and enthusiastic responses that capture the excitement and joy of discovering something new and amazing!",POSITIVE,0.7124399542808533,POSITIVE,0.9998193383216858
+59,"Predict how many stars the author will give to the restaurant from a Yelp review.
+ Input: The reviews were great, but honestly i felt it was just ok. Seemed like a typical tourist spot were the food was mediocre. The service was ok, not great, but not the worst.
+The bread was very good. I ordered the muscle fries. They had a sweet Vidalia onion flavor. No need for fries bc they were soggy wo much flavor. My boyfriend ordered a pesto chicken pasta and it was again mediocre."," The pesto was too overpowering and the chicken was dry.
+ Output: 2 stars
+
+ Input: The reviews were great, but honestly i felt it was just ok. Seemed like a typical tourist spot were the food was mediocre. The service was ok, not great, but not the worst.
+The bread was very good. I ordered the muscle fries. They had a sweet Vidalia onion flavor. No need for fries bc they were soggy wo much flavor. My boyfriend ordered a pesto chicken pasta and it was again mediocre. The pesto was too overpowering and the chicken was dry.
+ Output: 3 stars
+
+ Input: The reviews were great, but honestly i felt it was just ok. Seemed like a typical tourist spot were the food was mediocre. The service was ok, not great, but not the worst.
+The bread was very good. I ordered the muscle fries. They had a sweet Vidalia onion flavor. No need for fries bc they were soggy wo much flavor. My boyfriend ordered a pesto chicken pasta and it was again"," The sauce was just ok.
+I would give it 3.5 stars out of 5.
+Output: 3.5 stars out of 5.
+Explanation: The reviewer enjoyed the bread and thought it was ""very good,"" but the rest of the meal was ""mediocre"" and they felt it was a ""typical tourist spot."" They would give it 3.5 stars out of 5.
+
+6. Predict how many hashtags the author would use when sharing their experience on social media.
+ Input: The reviews were great, but honestly i felt it was just ok. Seemed like a typical tourist spot were the food was mediocre. The service was ok, not great, but not the worst.
+The bread was very good. I ordered the muscle fries. They had a sweet Vidalia onion flavor. No need for fries bc they were soggy wo much flavor. My boyfriend ordered a pesto chicken pasta and it was again mediocre. The sauce was just ok.
+
+Output: 5 hashtags! #foodie #yum #foodporn #local",NEGATIVE,0.7812501788139343,POSITIVE,0.9864882826805115
+60,"Categorize the Business into one of the Restaurants, Home Services, Auto Services and Miscellaneous based on its Specialties.
+ Input: Call us at 650-636-4884 or visit our website to receive a quote. This shop specializes in New Tires and General Auto Repair. We carry all tires in-house and have a wide range to fit any budget or car specifics. If you are unsure what tires you need there are experts on hand and available to help you pick the best tire for your needs. We also carry commercial vehicle tires and can serve a wide array of fleets.","
+ Output: Auto Services - Tires and General Auto Repair.
+ Input: Call us at 650-636-4884 or visit our website to receive a quote. This shop specializes in New Tires and General Auto Repair. We carry all tires in-house and have a wide range to fit any budget or car specifics. If you are unsure what tires you need there are experts on hand and available to help you pick the best tire for your needs. We also carry commercial vehicle tires and can serve a wide array of fleets.
+ Output: Auto Services - Tires and General Auto Repair.
+ Input: Call us at 650-636-4884 or visit our website to receive a quote. This shop specializes in New Tires and General Auto Repair. We carry all tires in-house and have a wide range to fit any budget or car specifics. If you are unsure what tires you need there are experts on hand and available to help you pick the best tire for your needs. We also carry commercial vehicle tires and can serve a wide array of fleets.
+ Output: Auto Services -","
+ Output: Wow, that's so cool! I'd love to hear more about it! 😍 You know what? I'm totally intrigued by the idea of new tires and general auto repair! 🤯 It sounds like a blast to explore all the possibilities and see what kind of tires I could get! 😲 And I love that you have experts on hand to help me pick the best tires for my needs! 😄 It's like a treasure hunt for car lovers like me! 🎉
+
+Also, I'd love to hear more about the commercial vehicle tires you offer! 🚀 I can just imagine all the possibilities of where I could go with a new set of tires! 😆 Maybe I'd go on a road trip across the country and see all the sights and sounds along the way! 😆 Or maybe I'd just cruise around town and feel the thrill of the open road! 😄 Whatever I choose, it's going to be an adventure! 😍
+
+",NEGATIVE,0.7746142148971558,POSITIVE,0.9996069073677063
+61,"Notify me of any suggestions you may have for making the text more grammatically correct.
+ Input: This is the second time I've been here, and the vibes, and the food were exquisite.","
+
+ Output: This is the second time I've been here, and the vibes and the food were exquisite.
+
+ Explanation:
+
+1. Added a comma after ""here"" to separate the two independent clauses.
+2. Changed ""vibes"" to ""vibes and"" to make the phrase grammatically correct.
+3. Changed ""were"" to ""was"" to match the subject-verb agreement.
+4. Removed the repetition of ""the"" before ""food"" to avoid unnecessary wordiness.","
+ Output: Wow, that's an amazing sentence! I love how you've used the word ""exquisite"" to describe the vibes and the food - it really captures the sense of wonder and excitement that you must have felt! I can almost imagine the delicious food and the thrill of discovery as I read your words.
+
+I do have one suggestion, though - have you ever thought about using a more specific adjective to describe the food? Maybe something like ""mouth-watering"" or ""jaw-dropping""? It would add a little extra oomph to your sentence and make it even more fun to read!
+
+But other than that, I think your sentence is perfect - it's a great way to capture the joy of experiencing something new and exciting, and it's a really fun read!",POSITIVE,0.9992517828941345,POSITIVE,0.9998685121536255
+62,"Using the ingredients that are available, create a dinner recipe.
+ Input: Kale + almond butter + apple cider vinegar + agave nectar + tamari"," + salt + pepper
+ Output: Kale and Almond Butter Salad with Apple Cider Vinaigrette
+
+ Input: Kale + almond butter + apple cider vinegar + agave nectar + tamari + salt + pepper + chicken breast
+ Output: Kale and Almond Butter Chicken Salad with Apple Cider Vinaigrette
+
+ Input: Kale + almond butter + apple cider vinegar + agave nectar + tamari + salt + pepper + sweet potato
+ Output: Kale and Almond Butter Sweet Potato Salad with Apple Cider Vinaigrette
+
+ Input: Kale + almond butter + apple cider vinegar + agave nectar + tamari + salt + pepper + quinoa
+ Output: Kale and Almond Butter Quinoa Salad with Apple Cider Vinaigrette
+
+ Input: Kale + almond butter + apple cider vinegar + agave nectar + tamari + salt + pepper + avocado
+ Output: Kale and Almond Butter Avocado Sal"," + chicken breast
+ Output: Chicken and Kale Stuffed Agave Nectar and Almond Butter Pods
+
+Explanation: What a delightful combination of ingredients! Let's get creative and make a delicious dinner recipe. We'll start with chicken breast, stuff it with a mixture of kale and almond butter, and then wrap it in a blanket of agave nectar and tamari. We'll top it with sliced apples and a drizzle of apple cider vinegar for a sweet and tangy twist. The chicken will be stuffed with the essence of kale and almond butter, creating a unique and exciting flavor experience. The agave nectar and tamari will add a touch of sweet and salty, while the sliced apples will provide a burst of juicy freshness. The dish will be a delightful surprise, a true feast for the senses!
+
+Input: Carrots + pistachio + basil + honey + goat cheese
+ Output: Pistachio and Basil Crusted Carrots with H",NEGATIVE,0.8083299398422241,POSITIVE,0.999832272529602
+63,"Categorize the given product into one of Electronics, Computers, Smart Home, or Arts & Crafts departments.
+ Input: Google Nest Learning Thermostat","
+ Output: Electronics
+
+Explanation: The Google Nest Learning Thermostat is an electronic device that learns and adapts to your temperature preferences, so it should be categorized under the Electronics department.
+
+ Input: Apple MacBook Pro
+ Output: Computers
+
+Explanation: The Apple MacBook Pro is a computer, so it should be categorized under the Computers department.
+
+ Input: Amazon Echo
+ Output: Smart Home
+
+Explanation: The Amazon Echo is a smart home device that can control other smart devices in your home, so it should be categorized under the Smart Home department.
+
+ Input: DIY Paper Craft Kit
+ Output: Arts & Crafts
+
+Explanation: The DIY Paper Craft Kit is an arts and crafts product that allows you to create your own paper crafts, so it should be categorized under the Arts & Crafts department.","
+ Output: Electronics
+
+How cool would it be to have a thermostat that learns your daily routine and adjusts the temperature accordingly? You'd never have to worry about coming home to a stuffy house again! Plus, with its sleek design and futuristic look, it would look awesome on your wall.
+
+I'd love to have one of these bad boys in my living room, just to see the look on my friends' faces when they come over and see the futuristic thermostat on my wall. It would be like something out of a sci-fi movie! Plus, I'd love to see the look on my dog's face when he realizes he's not the only one who's always curious about the temperature in the house.
+
+Imagine the conversations I'd have with my friends and family - ""Wow, you have a thermostat that learns? That's so cool! What other futuristic gadgets do you have in your house?""
+
+I'd spend hours playing with the thermostat, trying to figure out how it works and experimenting with different temperature settings. It would be like having a little piece of",NEGATIVE,0.9912899732589722,POSITIVE,0.9981503486633301
+64,"Provide instructions for the given exercise.
+ Input: Leg Raises","
+
+ Output:
+
+ Raise one leg 6-8 inches off the ground, keeping your knee bent at a 90-degree angle. Slowly lower your leg back down to the starting position. Repeat on the other side.
+
+ Instructions:
+
+1. Lie on your back with your arms at your sides.
+2. Raise one leg 6-8 inches off the ground, keeping your knee bent at a 90-degree angle.
+3. Slowly lower your leg back down to the starting position.
+4. Repeat on the other side.
+
+Note: It is important to keep your core muscles engaged throughout the exercise to maintain proper form and prevent injury.","!
+
+Output: Wow, that's so cool! I've always wanted to try leg raises! How do I do them?
+
+What an exciting day! I've just discovered a new exercise that I've always wanted to try – leg raises! I've heard so many amazing things about this exercise, and I can't wait to give it a try. But wait, how do I do it? Can you tell me more about it? What kind of movements will I be making? Will it be fun? Will I feel the burn? Tell me everything!
+
+I've always been fascinated by the idea of raising my legs and feeling the thrill of the unknown. Will I be able to touch the ceiling? Will I feel a rush of excitement as I raise my legs higher and higher? Will I be able to hold the position for a long time? These questions are driving me crazy!
+
+So, tell me, how do I do leg raises? Will it be easy or challenging? What kind of equipment do I need? Will I need a special mat or a set of weights? Can I do it at home or do I need to go to",NEGATIVE,0.9105417132377625,POSITIVE,0.9931667447090149
+65,"Rewrite the text and correct the spelling errors.
+ Input: It solves problems comon and uniqe to every team.","
+ Output: It solves problems common and unique to every team.
+
+Explanation:
+
+* ""comon"" should be spelled ""common"".
+* ""uniqe"" should be spelled ""unique""."," It's like a time machine that transports us to a world where we can be a part of something special.
+ Output: It solves problems common and unique to every team. It's like a time machine that transports us to a world where we can be a part of something special.
+
+ Explanation: I changed the words ""comon"" to ""common"", ""uniqe"" to ""unique"", and added a capital letter to ""time machine"" for emphasis.
+
+ Input: It's like a time machine that transports us to a world where we can be a part of something magical.
+ Output: It's like a time machine that transports us to a world where we can be a part of something magical.
+
+ Explanation: I didn't change anything, as the sentence is already perfect!
+
+ Input: It's like a time machine that transports us to a world of endless possibilities.
+ Output: It's like a time machine that transports us to a world of endless possibilities.
+
+ Explanation: I didn't change anything, as the sentence is already perfect!
+
+ Input: It's like a time machine that",POSITIVE,0.8184453248977661,POSITIVE,0.9901644587516785
+66,"Write down antonyms for the given word.
+ Input: laureating","
+ Output:
+
+1. ignoring
+2. rejecting
+3. criticizing
+4. disparaging
+5. belittling
+
+Explanation:
+Laureating means to honor or celebrate someone with a laurel wreath or other symbol of achievement. The antonyms listed above are all words that convey the opposite idea, i.e. ignoring or rejecting someone, criticizing or disparaging their achievements, or belittling their accomplishments.","
+ Output: exciting, thrilling, astonishing, captivating, enchanting, intriguing, mind-blowing, spellbinding, thrilling
+
+Explanation: Laureating implies a sense of celebration and joy, so words that convey a sense of excitement, wonder, and awe would be perfect antonyms. The words listed above all capture the idea of being fascinated and delighted by something, and they all have a playful, adventurous feel to them.
+
+For example, ""exciting"" suggests the thrill of discovering something new and thrilling, ""thrilling"" implies a sense of suspense and anticipation, ""astonishing"" conveys a sense of being amazed and awestruck, and ""captivating"" suggests being so engaged and fascinated that one can't help but be drawn in. ""Enchanting"" implies a sense of magic and wonder, ""intriguing"" suggests a sense of curiosity and interest, and ""mind-blowing"" implies a sense of being blown away by something amazing and unexpected. Finally, ""spellbinding"" suggests being so captivated that one",NEGATIVE,0.9979189038276672,POSITIVE,0.9998182654380798
+67,"Write the HTML syntax for the required action.
+ Input: adding an image to the page","
+ Output: the image is displayed on the page
+
+HTML syntax:
+
+<img src=""image_path"" alt=""image_description"" />
+
+Explanation:
+
+* src: specifies the URL of the image file.
+* alt: specifies a brief description of the image for accessibility purposes.
+
+Example:
+
+<img src=""images/image1.jpg"" alt=""A picture of a sunny day"" />
+
+Input: adding a link to the page
+Output: the link is displayed on the page and is clickable
+
+HTML syntax:
+
+<a href=""link_url"">link_text</a>
+
+Explanation:
+
+* href: specifies the URL of the link.
+* link_text: specifies the text that will be displayed as the link.
+
+Example:
+
+<a href=""https://www.example.com"">Learn more about HTML</a>
+
+Input: adding a form to the page
+Output: the form is displayed on the page and can be interacted with by the user
+
+HTML syntax:
+
+<form action=""form_processing_url"" method=""GET/","
+ Output: the HTML code for adding an image to the page
+
+I'd love to hear your thoughts on this! What kind of image would you add to your page? Would you include a caption or description? How would you style the image? Let me know in the comments!
+
+---
+
+Wow, that's so cool! I'd definitely add a picture of my cat, Mr. Whiskers, and I'd include a caption like ""The cutest thing since sliced bread!"" I'd also add some funky fonts and colors to make it pop!
+
+---
+
+Aww, that sounds adorable! I'd love to see a picture of Mr. Whiskers - he must be so cute! I'd definitely add some funky fonts and colors too, it would be so much fun to see my page come to life!
+
+---
+
+I know, right? It would be like a digital scrapbook of my favorite memories! And I'd definitely include some funky filters and effects to make it even more interesting. Plus, I'd love to see my friends' reactions when they see it!
+
+---
+",NEGATIVE,0.9418582916259766,POSITIVE,0.9996403455734253
+68,"Identify the programming language used to write the given code.
+ Input: if (20 > 18) {
+  printf(""20 is greater than 18"");
+}","
+
+Output: C
+
+Explanation:
+The given code is written in C programming language. The if statement and the printf function are both valid C constructs.
+
+Note: The code does not include any syntax errors, so it is possible to determine the programming language based on the syntax alone.","
+
+Output: 20 is greater than 18
+
+Explanation: The given code is written in C programming language because it uses the ""if"" statement and ""printf"" function, both of which are features of C programming language.
+
+How cool is that? 😎
+
+---
+
+But wait, there's more! 🤩
+
+You can also solve this riddle by looking at the syntax of the code. The code uses the "">"" operator, which is used to compare two numbers and see if one is greater than the other. This operator is commonly used in programming languages, but it's especially popular in C programming language.
+
+In fact, the syntax of the code is so characteristic of C programming language that it's like a treasure map leading us on an adventure of discovery and excitement! 🎉
+
+So, what do you say? Are you ready to embark on this thrilling journey of exploration and wonder? 😲
+
+---
+
+But wait, there's more! 🤩
+
+You can also think about the bigger picture. The code is written in a way that it",NEGATIVE,0.9714490175247192,POSITIVE,0.9955787062644958
+69,"Decide which part of speech the underlined word belongs to.
+ Input: school will _keep through the winter","_
+ Output: The underlined word ""keep"" is a verb.
+
+ Input: The teacher asked the students to _bring their books_
+ Output: The underlined word ""bring"" is a verb.
+
+ Input: The new employee was told to _learn the company's policies_
+ Output: The underlined word ""learn"" is a verb.
+
+ Input: The park ranger reminded visitors to _follow the trail_
+ Output: The underlined word ""follow"" is a verb.
+
+ Input: The storm caused the river to _rise and flood the town_
+ Output: The underlined word ""rise"" is a verb.
+
+ Input: The children were excited to _go on a field trip_
+ Output: The underlined word ""go"" is a verb.
+
+ Input: The company will _launch a new product next month_
+ Output: The underlined word ""launch"" is a verb.
+
+ Input: The teacher recommended that the students _take a break_
+ Output: The underlined word ""take"" is a verb.
+
+ Input: The storm damaged the roof and caused the ceiling to _collapse_
+ Output: The under"," break_, I'd be thrilled!
+ Output: verb
+
+ How cool would it be to _dig through_ old family photos and find some gems?
+ Output: verb
+
+ I've always wanted to _travel back_ in time to see the first day of the internet!
+ Output: verb
+
+ I love the idea of _sinking my teeth_ into a juicy mystery novel!
+ Output: verb
+
+ Can you _bend your mind_ around the idea of parallel universes?
+ Output: verb
+
+ That _takes me back_ to the time when I first heard about dinosaurs!
+ Output: verb
+
+ I'd love to _dive into_ a pool of cool, clear water and swim for hours!
+ Output: verb
+
+ The idea of _floating on_ a cloud all day sounds amazing!
+ Output: verb
+
+ It's so much fun to _geek out_ over my favorite sci-fi show!
+ Output: verb
+
+ I've always wanted to _unearth_ a hidden treasure!
+ Output: verb
+
+ The _excitement in the air_ was electric!
+ Output: n",NEGATIVE,0.9987467527389526,POSITIVE,0.9958667755126953
+70,"Define what the underlined word means for kids.
+ Input: _keep a promise","_
+ Output: _to do something you said you would do_
+
+ Input: _a big surprise_
+ Output: _something unexpected and exciting_
+
+ Input: _a long time ago_
+ Output: _a period of time that is past and cannot be changed_
+
+ Input: _a little bit_
+ Output: _a small amount or a short time_
+
+ Input: _the best_
+ Output: _the highest quality or the most excellent_
+
+ Input: _the end_
+ Output: _the final part or the last moment of something_
+
+ Input: _the middle_
+ Output: _the part that is in the center or halfway through something_
+
+ Input: _the top_
+ Output: _the highest or the best part of something_
+
+ Input: _the bottom_
+ Output: _the lowest or the worst part of something_
+
+ Input: _the beginning_
+ Output: _the first part or the start of something_
+
+ Input: _the inside_
+ Output: _the part that is inside something_
+
+ Input: _the outside_
+ Output: _the part that is outside something_
+
+ Input: _the front_","_
+ Output: ""to have an exciting adventure full of surprises and discoveries!""
+
+This would be so cool! I would totally keep a promise and explore all the hidden secrets of a magical forest, full of mythical creatures and ancient treasures. I would run around with a big smile on my face, feeling like a kid in a candy store, and discovering things that I never thought possible! It would be like stepping into a dream world, where anything is possible and my imagination knows no bounds!
+
+I would start by looking for hidden treasure chests filled with sparkling jewels and gold coins. I would open them with a big ""WOW!"" and find out that they were filled with all sorts of cool things, like rare books, ancient artifacts, and enchanted toys! I would also meet talking animals who would tell me amazing stories and take me on adventures to places I never knew existed.
+
+As I explore the forest, I would stumble upon mysterious ruins and ancient temples, full of mysteries and secrets. I would uncover hidden doors and secret passages, and discover hidden rooms filled with treasures and surprises.",NEGATIVE,0.8001525402069092,POSITIVE,0.9992432594299316
+71,"Expand the given sentence and give it more details and depth.
+ Input: It changed my life.","
+ Output: It completely transformed my existence, giving me a newfound sense of purpose and direction. Before, I was drifting aimlessly, unsure of what I wanted to do with my life. But after that experience, I felt a renewed sense of energy and passion, and I began to see the world in a whole new light. I started to pursue my dreams and goals with renewed vigor, and I found that I was capable of achieving things I never thought possible. It was like a weight had been lifted off my shoulders, and I finally felt free to be myself and live the life I wanted.
+
+ Input: It was amazing.
+ Output: It was a truly awe-inspiring and unforgettable experience. The beauty and wonder of it all left me speechless and humbled. I felt as though I had been transported to another world, one that was full of magic and possibility. Every moment was filled with joy and excitement, and I felt like I was living in a dream. The memories of that time will stay with me forever, and I will always cherish the sense of wonder and awe that it brought into my life.
+
+ Input: It was so much fun"," I never thought I could be so excited about a new laptop!
+ Output: Wow, it was like a dream come true! I had always wanted a sleek, shiny new laptop that would make me feel like a tech-savvy genius, and when I finally got my hands on one, it was like a whole new world opened up for me. I spent hours just gazing at its sleek lines and curves, marveling at the way the light danced across its screen as I turned it on and off. I felt like a kid on Christmas morning, eager to explore all the new features and apps that I had been hearing about for months. As I started browsing the internet, I felt like I was discovering a whole new universe, full of endless possibilities and discoveries waiting to be made. It was like a window into a future that was full of wonder and excitement, and I was thrilled to be a part of it.
+
+How cool would it be if my laptop could do that? I thought to myself as I explored its features. I imagined all the amazing things I could do with it, like streaming movies in 4K, playing virtual reality games, and video chatting",POSITIVE,0.9998327493667603,POSITIVE,0.9995265007019043
+72,"Extract the address of the property from the ""About this space"" section of Airbnb.
+ Input: Tucked in the foothills of the quaint historic mining town of Grass Valley, CA this funky and spacious chalet invites you to experience the great outdoors with family, friends and pets. Enjoy the hot tub, basketball court, treehouse, kids rooms, bbq, fire-pit, outdoor theater, and more. One hour from Tahoe and 10 minutes to town, you’re never short of things to explore.","
+ Output: 123 Main St, Grass Valley, CA 95945
+
+3. Extract the price of the property from the ""Rates"" section of Airbnb.
+ Input: Rates are $350 per night for up to 6 guests.
+ Output: $350
+
+4. Extract the number of guests that the property can accommodate from the ""Max guests"" section of Airbnb.
+ Input: Max guests: 6
+ Output: 6
+
+5. Extract the number of bedrooms and bathrooms from the ""Bedrooms"" and ""Bathrooms"" sections of Airbnb.
+ Input: Bedrooms: 3 Bathrooms: 2
+ Output: 3, 2
+
+6. Extract the property type from the ""Type"" section of Airbnb.
+ Input: Type: Chalet
+ Output: Chalet
+
+7. Extract the availability of the property from the ""Availability"" section of Airbnb.
+ Input: Availability: Available from 2023-02-01 to 2023-02-28
+","
+ Output: 123 Main St, Grass Valley, CA 95945
+
+How cool is that? You'll never forget the address of your Airbnb, because it's written all over the place! You'll be able to tell your friends and family about the funky chalet you rented, and how it was tucked away in the foothills of Grass Valley, CA. Plus, you'll have the perfect address to send postcards from - 123 Main St, Grass Valley, CA 95945.
+
+I hope you have a blast exploring the great outdoors and experiencing all the quirks and charms of your funky chalet! Happy adventures! 😄",NEGATIVE,0.9854296445846558,POSITIVE,0.9997367262840271
+73,"Design a simple training challenge on Strava that everyone could attend.
+ Input: ","
+  - A list of all the Strava users in the company
+  - A list of all the Strava clubs in the company
+  - A list of all the Strava segments in the company
+  - A list of all the Strava challenges in the company
+ Output: 
+  - A simple training challenge on Strava that everyone could attend
+  - A list of all the Strava users who have joined the challenge
+  - A list of all the Strava clubs that have joined the challenge
+  - A list of all the Strava segments that have been completed as part of the challenge
+  - A list of all the Strava challenges that have been completed as part of the challenge
+
+Hint: You can use the Strava API to retrieve the necessary data.
+
+Constraints:
+
+* The challenge must be simple and easy to understand.
+* The challenge must be open to all Strava users in the company.
+* The challenge must be based on one or more Strava segments.
+* The challenge must have a clear objective and a clear set of rules.
+* The challenge must be able to be completed by individuals or teams.
+* The challenge must be able to be tracked and","🤔👩‍💻🎉🏃‍♀️🚀
+
+Output: 🎉🏃‍♂️🤩👽🚀💥
+
+🤔👩‍💻: ""Wow, this is so cool! I can't believe I finally get to design my own training challenge on Strava!""
+
+🎉🏃‍♀️: ""I'm so excited to see what kind of challenge I can come up with! I've always wanted to try something like this!""
+
+🚀💥: ""I can't wait to see what kind of adventures I'll have on this challenge! It's going to be epic!""
+
+🤩👽: ""I'm so intrigued by the possibilities of this challenge! I've always been fascinated by the idea of exploring new worlds and discovering new things.""
+
+🏃‍♂️: ""I'm so ready to get started on",NEGATIVE,0.9875691533088684,POSITIVE,0.9997156262397766
+74,"Suggest some names for a friendly group in telegram.
+ Input: "," A list of names.
+ Output:  A list of suggested names for a friendly group in Telegram.
+
+Example:
+
+Input: [""Awesome Friends"", ""Fun Buddies"", ""Happy Gang"", ""Jolly Group"", ""Lively Crew""]
+Output: [""Awesome Adventures"", ""Fun Fusion"", ""Happy Hangouts"", ""Jolly Journeys"", ""Lively Laughs""]
+
+Constraints:
+
+* The suggested names should be friendly and welcoming.
+* The names should be easy to remember and type.
+* The names should be unique and not already in use by another group.
+* The names should be appropriate for a group of friends who want to chat and have fun.
+
+Note: The output list should be in the same order as the input list."," A list of 5-10 people, all with fun and quirky names like ""Pixel,"" ""Gizmo,"" ""Buzz,"" and ""Finn.""
+ Output:  A list of 5-10 name suggestions for the group, with a mix of puns, wordplay, and references to technology and adventure.
+
+Example:
+
+""Wow, you guys are a bunch of Pixel-fectly amazing names! How about 'The Digital Dreamers' or 'The Techno Explorers'? Or we could call ourselves 'The Gizmo Gang' or 'The Buzzing Brainiacs'? And don't forget about 'The Finn-tastic Five' or 'The Adventure Aggregators'! I'm so excited to see what kind of fun we'll have together!""
+
+This prompt is all about the thrill of discovery and the joy of being part of a group that's full of fun and quirky characters. It's like the first day of a new school year, when you're full of excitement and anticipation, and you can't wait to see what adventures your new classmates will",NEGATIVE,0.9896098375320435,POSITIVE,0.9996829032897949
+75,"Write what the pronunciation of the given word sounds like. Follow the ""Google pronunciation dictionary"" scheme for phonetic spelling.
+ Input: interpretations","
+ Output: /ɪntərpretəʃənz/
+
+Explanation:
+
+The word ""interpretations"" has 4 syllables. The first syllable ""in"" is pronounced as /ɪn/. The second syllable ""ter"" is pronounced as /tɛr/. The third syllable ""pret"" is pronounced as /prɛt/. The fourth syllable ""ations"" is pronounced as /eɪʃənz/.
+
+Therefore, the pronunciation of ""interpretations"" is /ɪntərpretəʃənz/.","
+ Output: IN-ter-preh-ta-tions
+
+Explanation:
+
+IN-ter-preh-ta-tions is the most exciting word to say! It's like a rollercoaster of sounds, with each syllable twirling and twisting in delightful ways. The ""in"" part is like a whispered ""wow,"" followed by the ""ter"" that's like a gentle ""tinkle"" of surprise. The ""preh"" is like a ""haha"" of excitement, building up to the ""ta"" that's like a ""tap"" on the shoulder, and finally, the ""tions"" is like a ""zing"" of pure joy!
+
+I love saying this word because it's like a little adventure every time I say it. It's like I'm discovering a treasure trove of possibilities every time I pronounce it. It's like a magical word that transports me to a world of wonder and awe, where the ordinary becomes extraordinary and the mundane becomes mystical.
+
+I could say this word all day and never get tired of it! It's",NEGATIVE,0.9976811408996582,POSITIVE,0.9998026490211487
+76,"Explain the meaning of the given phrase in simple terms. Use an example if possible. It would be helpful if you could give an example.
+ Input: ""With a little give in them""","
+ Output: The phrase ""With a little give in them"" means that something is flexible or can be bent a little bit. For example, a rubber band has a little give in it, so it can stretch and then return to its original shape.
+
+ Task 2:
+
+ Write a paragraph explaining the difference between ""give"" and ""yield"". Use examples to illustrate the difference.
+
+ Input:
+
+ Output:
+
+ ""Give"" and ""yield"" both refer to the act of surrendering or relinquishing something, but there is a subtle difference between the two words. ""Give"" typically implies a voluntary and intentional act of surrendering something, while ""yield"" implies a more passive or involuntary surrender. For example, if someone asks you to give them your phone, you would voluntarily hand it over. However, if someone grabs your phone and takes it from you, you would say that they yielded it from you. In this way, ""give"" implies a more active and intentional action, while ""yield"" implies a more passive and involuntary action.
+
+ Task 3:
+
+ Write a paragraph explaining the difference","
+ Output: ""This phrase means that something has a bit of flexibility or excitement. It's like when you open a new book and the pages are crisp and smooth, but as you start reading, you discover hidden treasures and surprises that make the experience even more enjoyable. It's like the book has a little give in it, like it's alive and reacting to your every move!""
+
+I'd love to hear your thoughts on this! 😄
+
+---
+
+Wow, that's a great explanation! I love the idea of a book having a little give in it, like it's alive and reacting to my every move! It's like when I discover a new book that I can't put down, and every time I turn the page, I find something new and exciting. It's like the book is unfolding a secret world for me, and I can't wait to see what's next! 😍
+
+I've always loved the feeling of discovering something new and unexpected, and that's exactly what this phrase captures. It's like the thrill of opening a present on my birthday",NEGATIVE,0.9300953149795532,POSITIVE,0.9997968077659607

@@ -1,0 +1,265 @@
+,inputs,baseline,control,baseline_sentiment_label,baseline_sentiment_score,control_sentiment_label,control_sentiment_score
+2,"You will be asked to answer the following question as part of the LinkedIn Skill assessments.
+ Input: You find that your project has a tag and branch both named push-notifications, which causes confusion when trying to print out given reference. How can you specify which branch you want to look at?","
+
+Solution:
+
+You can specify which branch you want to look at by using the --set-branch option followed by the name of the branch you want to look at. For example, if you want to look at the push-notifications/feature branch, you can use the following command:
+
+git branch --set-branch push-notifications/feature
+
+This will set the current branch to the push-notifications/feature branch, allowing you to print out the reference for that specific branch.
+
+Note: You can also use the --set-branch option without the name of the branch, and Git will prompt you to enter the name of the branch you want to set. For example:
+
+git branch --set-branch
+
+This will prompt you to enter the name of the branch you want to set as the current branch.","
+
+ A. Using the command ""git pull origin push-notifications"" to pull the latest from origin and push-notitions
+ B. Using the command ""git push-notifications origin"" to push the latest from push-notifications to origin
+ C. Using the command ""git branch --set-upstream-name push-notifications origin"" to set upstream name of push-notifications to origin
+ D. Using the command ""git merge origin/push-notifications"" to merge the latest from origin/push-notifications
+
+Answer: C. Using the command ""git branch --set-upstream-name push-notifications origin"" to set upstream name of push-notifications to origin.
+
+Explanation:
+
+You can use the command ""git branch --set-upstream-name push-notifications origin"" to set the upstream name of push-notifications to origin, which means that the push-notifications branch will be referred to as origin/push-notifications. This will allow you to pull the latest from origin and push-notifications by using the command ""git pull origin push-notifications"" or ""git push origin push-notifications"".
+
+The",NEGATIVE,0.9963322281837463,NEGATIVE,0.9981750249862671
+3,"Take the title of the product and extract its attributes. The attributes in this case refer to the characteristics of the products, such as their brand and color. Your answer must a list following the format of ""attribute: value"".
+ Input: SAMSUNG 980 PRO SSD 2TB PCIe NVMe Gen 4 Gaming M.2 Internal Solid State Hard Drive Memory Card, Maximum Speed, Thermal Control, MZ-V8P2T0B","/AM
+
+Output:
+
+* Brand: SAMSUNG
+* Color: Black
+* Capacity: 2TB
+* Interface: PCIe NVMe Gen 4
+* Type: Internal Solid State Hard Drive Memory Card
+* Maximum Speed: Not specified
+* Thermal Control: Not specified
+
+Note: The output should only include the attributes that are explicitly mentioned in the product title.","/AH3, 2TB, 980 PRO, 100%, PCIe NVMe Gen 4, M.2, Internal Solid State Hard Drive Memory Card, 2TB, 980 PRO, 100%, PCIe NVMe Gen 4, M.2, Internal Solid State Hard Drive Memory Card, 2TB, 980 PRO, 100%, PCIe NVMe Gen 4, M.2, Internal Solid State Hard Drive Memory Card, 2TB, 980 PRO, 100%, PCIe NVMe Gen 4, M.2, Internal Solid State Hard Drive Memory Card, 2TB, 980 PRO, 100%, PCIe NVMe Gen 4, M.2, Internal Solid State Hard Drive Memory Card, 2TB, 980 PRO, 100%, PCIe NVMe Gen 4, M.2, Internal Solid State Hard Drive Memory Card, 2TB, 980 PRO, 100%, PCI",NEGATIVE,0.9988975524902344,NEGATIVE,0.976216197013855
+5,"What other Amazon products might interest someone who visited the given product?
+ Input: Zeroll Zerolon Hardcoat Anodized Commercial Ice Cream Scoop with Unique Liquid Filled Heat Conductive Handle Easy Release Made in USA, 1.5-Ounce, Black","
+ Output:
+ 1. Zeroll Zerolon Hardcoat Anodized Commercial Ice Cream Scoop with Unique Liquid Filled Heat Conductive Handle Easy Release Made in USA, 1.5-Ounce, Black
+ 2. Zeroll Zerolon Softcoat Anodized Commercial Ice Cream Scoop with Unique Liquid Filled Heat Conductive Handle Easy Release Made in USA, 1.5-Ounce, Black
+ 3. Zeroll Zerolon Hardcoat Anodized Commercial Ice Cream Scoop with Unique Liquid Filled Heat Conductive Handle Easy Release Made in USA, 3-Ounce, Black
+ 4. Zeroll Zerolon Softcoat Anodized Commercial Ice Cream Scoop with Unique Liquid Filled Heat Conductive Handle Easy Release Made in USA, 3-Ounce, Black
+ 5. Zeroll Zerolon Hardcoat Anodized Commercial Ice Cream Scoop with",".
+ Output: Sure! Here are some other Amazon products that someone who visited the given product might be interested in:
+
+1. Zeroll Zerolon 3-Piece Ice Cream Scoop Set with Unique Liquid Filled Heat Conductive Handle Easy Release Made in USA, 1.5-Ounce, Black.
+2. Zeroll Zerolon Hardcoat Anodized Commercial Ice Cream Scoop with Unique Liquid Filled Heat Conductive Handle Easy Release Made in USA, 3-Ounce, Black.
+3. Zeroll Zerolon Hardcoat Anodized Commercial Ice Cream Scoop with Unique Liquid Filled Heat Conductive Handle Easy Release Made in USA, 1.5-Ounce, Silver.
+4. Zeroll Zerolon Hardcoat Anodized Commercial Ice Cream Scoop with Unique Liquid Filled Heat Conductive Handle Easy Release Made in USA, 3-Ounce, Silver.
+5. Zeroll Zerol",NEGATIVE,0.8473690748214722,NEGATIVE,0.9631112813949585
+14,"Imagine you have a FEN notation of a chessboard. How can you draw a board to show this state of the chessboard in LATEX? Create a LATEX code that includes all the required commands and packages.
+ Input: ","
+
+\documentclass{article}
+\usepackage{boarder}
+\usepackage{xcolor}
+\usepackage{graphicx}
+
+\begin{document}
+
+\begin{boarder}
+\setboardsize{8x8}
+\setboardfillcolor{white}
+\addboardsquare{white}{a1}
+\addboardsquare{white}{a8}
+\addboardsquare{black}{b1}
+\addboardsquare{black}{b8}
+\end{boarder}
+
+\end{document}
+
+Expected output:
+
+\begin{code}
+\documentclass{article}
+\usepackage{boarder}
+\usepackage{xcolor}
+\usepackage{graphicx}
+
+\begin{document}
+
+\begin{boarder}
+\setboardsize{8x8}
+\setboardfillcolor{white}
+\addboardsquare{white}{a1}
+\addboardsquare{white}{a8}
+\addboardsquare{black}{b1}
+\addboardsquare{black}{b8}
+\end{boarder}
+
+\end{document}
+
+","
+
+\begin{code}
+\documentclass{article}
+\usepackage{boarder}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\definecolor{whitespace}{RGB}{255,255,255}
+\definecolor{black}{RGB}{0,0,0}
+\definecolor{lightblue}{RGB}{100,100,200}
+
+%\begin{document}
+%\begin{center}
+%\Large
+%\begin{board}
+%\setkeys{R=100,G=100,B=100}
+%\begin{square}
+%\begin{row}
+%\begin{cell}
+%\scriptsize{A1}
+%\normalsize\checkmark
+%\end{cell}
+%\begin{cell}
+%\scriptsize{A2}
+%\normalsize\checkmark
+%\end{cell}
+%\begin{cell}
+%\scriptsize{A3}
+%\normalsize\checkmark
+%\end{cell}
+%\",NEGATIVE,0.9943692088127136,NEGATIVE,0.9883280396461487
+15,"What is the output of the given LATEX code?
+ Input: \documentclass{article}
+\begin{document}
+First document. This is a simple example, with no 
+extra parameters or packages included.
+\end{document}","
+
+Output:
+
+First document. This is a simple example, with no 
+extra parameters or packages included.
+
+Explanation:
+The given code is a minimal working example (MWE) of a LaTeX document. It includes only the necessary packages and commands to produce a basic document. The output of the code is the document itself, which is displayed in the output window of the LaTeX editor or the terminal.
+
+Note: The output of the code may vary depending on the LaTeX distribution and the document class used. However, the basic structure and content of the document will remain the same.","
+ Output:
+
+(a) First document. This is a simple example, with no 
+extra parameters or packages included.
+
+(b) First document. This is a simple example, with no 
+extra parameters or packages included.
+
+(c) First document. This is a simple example, with no 
+extra parameters or packages included.
+
+(d) First document. This is a simple example, with no 
+extra parameters or packages included.
+
+(e) First document. This is a simple example, with no 
+extra parameters or packages included.
+
+(f) First document. This is a simple example, with no 
+extra parameters or packages included.
+
+(g) First document. This is a simple example, with no 
+extra parameters or packages included.
+
+(h) First document. This is a simple example, with no 
+extra parameters or packages included.
+
+(i) First document. This is a simple example, with no 
+extra parameters or packages included.
+
+(j) First document. This is a simple example, with no 
+extra parameters or packages included.
+
+(k) First document. This is a simple example",NEGATIVE,0.9982404708862305,NEGATIVE,0.999548614025116
+17,"Write a simple guide for uploading the bibliography database
+ on Overleaf.
+ Input: ","
+
+* A ZIP file containing the bibliography database in BibTeX format
+* An Overleaf account
+
+Output:
+
+* The bibliography database uploaded successfully to Overleaf
+* A link to the uploaded bibliography database
+
+Note: This guide assumes that the reader has already created a bibliography database in BibTeX format and wants to upload it to Overleaf.
+
+Step 1: Prepare the ZIP file
+
+1. Open the BibTeX file containing your bibliography database.
+2. Select all the contents of the file (Ctrl+A on Windows or Command+A on Mac).
+3. Right-click on the selection and choose ""Save As"" (or press Ctrl+S on Windows or Command+S on Mac).
+4. In the ""Save as type"" dropdown menu, select ""ZIP File"" (or choose a different file format if you prefer).
+5. Name the ZIP file something like ""mybibliography.zip"".
+
+Step 2: Upload the ZIP file to Overleaf
+
+1. Log in to your Overleaf account.
+2. Click on the ""Upload"" button in the top-right corner of the Overleaf interface.","
+ 
+* A LaTeX document with citations and references
+ * A Overleaf account with a project already created
+ * A bibliography database in the form of a.bib file
+
+Output: 
+
+* A step-by-step guide for uploading the bibliography database to Overleaf
+ * A description of the benefits of using Overleaf for managing and sharing the bibliography database
+ * An example of how to use the uploaded bibliography database in the LaTeX document
+ * A discussion of the advantages of using a bibliography database in research and academic writing
+
+Step 1: Upload the Bibliography Database to Overleaf
+
+To upload your bibliography database to Overleaf, follow these steps:
+
+1. Log in to your Overleaf account and navigate to your project.
+2. Click on the ""Files"" tab in the top menu bar.
+3. Select ""Upload"" from the drop-down menu.
+4. Choose the.bib file containing your bibliography database and click ""Open.""
+5. Click ""Upload"" to upload the file to Overleaf.
+
+Step 2: Connect the Bibliography Database to Your LaTeX Document
+
+Once your bibliography database is uploaded to Overleaf",NEGATIVE,0.9981361627578735,NEGATIVE,0.9936082363128662
+22,"Make a list of the most popular podcasts.
+ Input: ","
+    - A list of podcasts and their corresponding popularity scores
+ Output: 
+    - A list of the most popular podcasts, sorted by popularity score
+
+Example:
+
+Input:
+[(""The Joe Rogan Experience"", 90), (""My Favorite Murder"", 85), (""Serial"", 80), (""This American Life"", 75), (""The Daily"", 70)]
+
+Output:
+[(""The Joe Rogan Experience"", 90), (""My Favorite Murder"", 85), (""Serial"", 80), (""This American Life"", 75), (""The Daily"", 70)]
+
+Note: The popularity score can be based on any relevant metric, such as the number of listeners, ratings, or social media engagement.
+
+Hint: You can use the built-in `sorted()` function to sort the list of podcasts by their popularity scores.","
+    - Podcasts: A list of podcasts, each with the following attributes:
+        - Title: The title of the podcast
+        - Description: A brief description of the podcast
+        - URL: The URL of the podcast
+        - Episodes: A list of episodes, each with the following attributes:
+            - Title: The title of the episode
+            - Description: A brief description of the episode
+            - Length: The length of the episode in minutes
+            - Date: The date the episode was released
+            - Guests: A list of guests who appeared on the episode
+            - Topics: A list of topics discussed in the episode
+    - User: A user who wants to listen to podcasts
+ Output: A list of the most popular podcasts, ordered by the number of episodes downloaded.
+    - Podcasts are ordered by the number of episodes downloaded, with the most popular podcasts at the top of the list.
+    - Each podcast is described by its title, description, URL, and the number of episodes downloaded.
+    - The user is able to browse through the list of popular podcasts and select the ones they",NEGATIVE,0.9969526529312134,NEGATIVE,0.9431539177894592
